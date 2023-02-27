@@ -34,7 +34,8 @@ function generate(week = "00") {
 ./generate-cmake.sh`;
 }
 
-document.addEventListener('copy', (e) => {
-  e.clipboardData.setData('text/plain', generate(current_week));
-  e.preventDefault();
-});
+if (false)
+  document.addEventListener('copy', (e) => {
+    e.clipboardData.setData('text/plain', generate(current_week));
+    e.preventDefault();
+  });
