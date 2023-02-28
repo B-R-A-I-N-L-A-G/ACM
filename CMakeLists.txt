@@ -53,3 +53,8 @@ project(week-01-the-artful-expedient)
 add_executable(week-01-the-artful-expedient week-01/the-artful-expedient/main.cpp)
 target_compile_options(week-01-the-artful-expedient PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/the-artful-expedient)
 
+
+project(week-01-frog-traveler)
+add_executable(week-01-frog-traveler week-01/frog-traveler/main.cpp)
+target_compile_options(week-01-frog-traveler PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/frog-traveler)
+
