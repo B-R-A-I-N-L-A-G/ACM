@@ -149,7 +149,8 @@ signed main() {
                 return 0;
             }
 
-            if (next >= n || falls[next] != 0 || jumps[jump_without_slip]) continue;
+            if (jumps[jump_without_slip]) break;
+            if (next >= n || falls[next]) continue;
 
             jumps[jump_without_slip] = current;
             falls[next] = jump_without_slip;
