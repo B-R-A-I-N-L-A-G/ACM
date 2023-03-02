@@ -16,12 +16,9 @@ function generate(week = "00") {
   let table_rows = Array.from(document.getElementsByClassName("problems")[0]
                                   .getElementsByTagName("tbody")[0]
                                   .childNodes);
+  table_rows.shift()
   return table_rows
-             .filter(row => row.classList &&
-                            Array.from(row.classList)
-                                .filter(class_name =>
-                                            class_name.includes("problem"))
-                                .length)
+             .filter(row =>row.tagName == "TR")
              .map(problem => problem.querySelector("td div div a").innerText)
              .map(get_proper_name)
              .reduce(
