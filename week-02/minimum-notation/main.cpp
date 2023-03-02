@@ -49,6 +49,34 @@ signed main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    int x;
+    cin >> x;
+
+    for(int p = 0; p < x; ++p) {
+        std::string l;
+        cin >> l;
+        vector<char> mins(l.size() + 1);
+        mins[l.size()] = l[l.size()-1];
+        for(int b = l.size()-1;b >= 0 ; --b){
+            mins[b] = min(l[b],mins[b+1]);
+        }
+
+        vector<int> chars(10);
+        vector<pair<char,int>> to_replace;
+        for(int b = 0; b < l.size(); ++b) {
+            if(l[b] > mins[b]) {
+                chars[min((l[b]-'0')+1,9)]++;
+            } else {
+                chars[(l[b]-'0')]++;
+            }
+        }
+        for(int index = 0; index < 10;index++){
+            for(int count = 0; count < chars[index]; count++) {
+                cout << (char)((char)'0' + index);
+            }
+        }
+        cout << endl;
+    }
 
     return 0;
 }
