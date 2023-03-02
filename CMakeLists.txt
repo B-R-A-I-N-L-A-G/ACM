@@ -58,3 +58,44 @@ project(week-01-frog-traveler)
 add_executable(week-01-frog-traveler week-01/frog-traveler/main.cpp)
 target_compile_options(week-01-frog-traveler PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/frog-traveler)
 
+
+
+project(week-02-dora-and-search)
+add_executable(week-02-dora-and-search week-02/dora-and-search/main.cpp)
+target_compile_options(week-02-dora-and-search PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/dora-and-search)
+
+
+project(week-02-fedya-and-array)
+add_executable(week-02-fedya-and-array week-02/fedya-and-array/main.cpp)
+target_compile_options(week-02-fedya-and-array PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/fedya-and-array)
+
+
+project(week-02-matching-numbers)
+add_executable(week-02-matching-numbers week-02/matching-numbers/main.cpp)
+target_compile_options(week-02-matching-numbers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/matching-numbers)
+
+
+project(week-02-meeting-on-the-line)
+add_executable(week-02-meeting-on-the-line week-02/meeting-on-the-line/main.cpp)
+target_compile_options(week-02-meeting-on-the-line PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/meeting-on-the-line)
+
+
+project(week-02-minimum-notation)
+add_executable(week-02-minimum-notation week-02/minimum-notation/main.cpp)
+target_compile_options(week-02-minimum-notation PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/minimum-notation)
+
+
+project(week-02-moscow-gorillas)
+add_executable(week-02-moscow-gorillas week-02/moscow-gorillas/main.cpp)
+target_compile_options(week-02-moscow-gorillas PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/moscow-gorillas)
+
+
+project(week-02-moving-dots)
+add_executable(week-02-moving-dots week-02/moving-dots/main.cpp)
+target_compile_options(week-02-moving-dots PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/moving-dots)
+
+
+project(week-02-prefixes-and-suffixes)
+add_executable(week-02-prefixes-and-suffixes week-02/prefixes-and-suffixes/main.cpp)
+target_compile_options(week-02-prefixes-and-suffixes PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/prefixes-and-suffixes)
+
