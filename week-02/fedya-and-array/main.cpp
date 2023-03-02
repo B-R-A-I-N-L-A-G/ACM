@@ -49,6 +49,21 @@ signed main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    fast n;
+    cin >> n;
+
+    for (fast i = 0; i < n; ++i){
+        ll max,min;
+        cin >> max >> min;
+        cout << (abs(max - min)) * 2 << endl;
+        for (int j = min; j < max; ++j) {
+            cout << j << " ";
+        }
+        for (int j = max; j > min; --j) {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
