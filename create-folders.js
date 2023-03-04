@@ -36,10 +36,10 @@ const generate = (week = '00') => {
 
 
 const getWeek = () => {
-  const zerothWeekDate = new Date(2023, 1, 15)
+  const zerothWeek = new Date(2023, 1, 15)
   const now = new Date()
 
-  const diff = now - zerothWeekDate
+  const diff = now - zerothWeek
   const weeks = Math.floor(diff / 1000 / 3600 / 24 / 7)
 
   return `${weeks}`.padStart(2, '0')
@@ -48,6 +48,16 @@ const getWeek = () => {
 // Create an image
 const button = document.createElement("button")
 button.innerText = "Generate Folders"
+button.style.position = "fixed"
+button.style.top = "0"
+button.style.right = "0"
+button.style.zIndex = "9999"
+button.style.padding = "10px"
+button.style.backgroundColor = "white"
+button.style.border = "1px solid black"
+button.style.borderRadius = "0 0 0 10px"
+button.style.cursor = "pointer"
+
 button.onclick = () => {
   navigator.clipboard.writeText(generate(getWeek()))
 }
