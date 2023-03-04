@@ -1,40 +1,56 @@
-const current_week = "00";
-
-function generate_one(problem, week = "00") {
-    return `
+const generateProblem = (problem, week = '00') => (
+`
 mkdir -p week-${week}/${problem}
 cp template.cpp week-${week}/${problem}/main.cpp
 touch week-${week}/${problem}/input
-`;
-}
+`
+)
 
-function get_proper_name(problem) {
-    return problem.replaceAll(" ", "-").toLowerCase().replaceAll(/[^-a-z]/g, "");
-}
 
-function generate(week = "00") {
-    let table_rows = Array.from(document.getElementsByClassName("problems")[0]
-        .getElementsByTagName("tbody")[0]
-        .childNodes);
-    table_rows.shift()
-    return table_rows
-            .filter(row => row.tagName == "TR")
-            .map(problem => ({
-                'id': problem.querySelector("td a").innerText,
-                'name': problem.querySelector("td div div a").innerText
-            }))
-            .map(struct => get_proper_name(struct.id + "-" + struct.name))
-            .reduce(
-                (ac, el) => {
-                    return ac + generate_one(el, week);
-                },
-                "") +
+const getProperName = (problem) => (
+  problem.replaceAll(' ', '-').toLowerCase().replaceAll(/[^-a-z]/g, '')
+)
+
+
+const generate = (week = '00') => {
+  const nodes = document.getElementsByClassName('problems')[0]
+    .getElementsByTagName('tbody')[0]
+    .childNodes
+
+  let table_rows = Array.from(nodes)
+  table_rows.shift()
+
+  return table_rows
+    .filter(row => row.tagName === 'TR')
+    .map(problem => ({
+      id: problem.querySelector('td a').innerText,
+      name: problem.querySelector('td div div a').innerText
+    }))
+    .map(({ id, name }) => getProperName(id + '-' + name))
+    .reduce((ac, el) => {
+      return ac + generateProblem(el, week)
+    },'') +
         `
-./generate-cmake.sh`;
+./generate-cmake.sh`
 }
 
-if (false)
-    document.addEventListener('copy', (e) => {
-        e.clipboardData.setData('text/plain', generate(current_week));
-        e.preventDefault();
-    });
+
+const getWeek = () => {
+  const zerothWeekDate = new Date(2023, 1, 15)
+  const now = new Date()
+
+  const diff = now - zerothWeekDate
+  const weeks = Math.floor(diff / 1000 / 3600 / 24 / 7)
+
+  return `${weeks}`.padStart(2, '0')
+}
+
+// Create an image
+const button = document.createElement("button")
+button.innerText = "Generate Folders"
+button.onclick = () => {
+  navigator.clipboard.writeText(generate(getWeek()))
+}
+
+document.body.prepend(button)
+
