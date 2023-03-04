@@ -19,11 +19,10 @@ function generate(week = "00") {
   table_rows.shift()
   return table_rows
              .filter(row =>row.tagName == "TR")
-             .map(problem => problem.querySelector("td div div a").innerText)
-             .map(get_proper_name)
+             .map(problem => ({ 'id': problem.querySelector("td a").innerText, 'name': problem.querySelector("td div div a").innerText }))
+             .map(struct => get_proper_name(struct.id + "-" + struct.name))
              .reduce(
                  (ac, el) => {
-                   let w = "02";
                    return ac + generate_one(el, week);
                  },
                  "") +
