@@ -1,34 +1,33 @@
 //region Template
+#include <algorithm>
+#include <array>
+#include <bitset>
+#include <concepts>
+#include <ctime>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <iostream>
+#include <map>
+#include <memory>
+#include <numeric>
+#include <optional>
+#include <queue>
+#include <random>
+#include <ranges>
+#include <set>
+#include <set>
+#include <span>
+#include <sstream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <set>
-#include <map>
-#include <vector>
 #include <string>
-#include <iostream>
-#include <set>
-#include <iostream>
-#include <vector>
-#include <variant>
-#include <ctime>
-#include <source_location>
-#include <random>
 #include <unordered_map>
 #include <unordered_set>
-#include <optional>
-#include <memory>
-#include <sstream>
-#include <queue>
-#include <ranges>
-#include <span>
-#include <algorithm>
-#include <numeric>
-#include <functional>
-#include <bitset>
-#include <array>
-#include <concepts>
-#include <iomanip>
+#include <variant>
+#include <vector>
+#include <vector>
 #include <list>
 
 #define STRINGIZE(x) #x
@@ -39,8 +38,13 @@ using namespace std;
 using ll = std::intmax_t;
 using ld = long double;
 using fast = std::int_fast32_t;
+template <typename T> using uset = unordered_set<T>;
+template <typename K, typename V> using umap = unordered_map<K, V>;
 namespace rng = std::ranges;
 #define int ll
+
+//kubik
+
 //endregion
 signed main() {
 #ifdef MAIN_DIR_PATH
