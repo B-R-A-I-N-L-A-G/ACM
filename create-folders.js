@@ -1,21 +1,23 @@
-function getInput(problemUrl) {
+function getTestInputs(problemUrl) {
     return fetch(problemUrl)
         .then(response => response.text())
         .then(html => {
             const parser = new DOMParser()
             const doc = parser.parseFromString(html, 'text/html')
 
-            const inputTag = doc.querySelector(".input")
-                .getElementsByTagName("pre")[0];
-            const normalChildren = Array.from(inputTag.childNodes)
-                .filter(node => node.tagName === 'DIV')
-            if (normalChildren.length === 0) {
-                return inputTag.innerText
-            } else {
-                return normalChildren
-                    .map(node => node.innerText)
-                    .join('\n')
-            }
+            return Array.from(doc.querySelectorAll(".input")).map(node => {
+                const inputTag = node.getElementsByTagName("pre")[0];
+                const normalChildren = Array.from(inputTag.childNodes)
+                    .filter(node => node.tagName === 'DIV')
+                if (normalChildren.length === 0) {
+                    return inputTag.innerText
+                } else {
+                    return normalChildren
+                        .map(node => node.innerText)
+                        .join('\n')
+                }
+            });
+
         })
 }
 
@@ -23,9 +25,11 @@ function generateProblem(problem, input, week = '00') {
     return `
 mkdir -p week-${week}/${problem}
 cp template.cpp week-${week}/${problem}/main.cpp
-cat << "HERE-DOC-END" > week-${week}/${problem}/input
+${input.map((input, index) => `
+cat << "HERE-DOC-END" > week-${week}/${problem}/input-${index.toString().padStart(2, '0')}
 ${input}
 HERE-DOC-END
+`).join('\n')}
 `
 }
 
@@ -59,7 +63,7 @@ async function generate(week = getWeek()) {
             url: problem.querySelector('td a').href,
             name: problem.querySelector('td div div a').innerText
         }))
-        .map(async ({id, url, name}) => ({name: getProperName(id + '-' + name), input: await getInput(url)})));
+        .map(async ({id, url, name}) => ({name: getProperName(id + '-' + name), input: await getTestInputs(url)})));
     return resolved
             .reduce((ac, {name, input}) => {
                 return ac + generateProblem(name, input, week)
