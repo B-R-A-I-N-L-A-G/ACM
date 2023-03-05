@@ -19,22 +19,22 @@ function getInput(problemUrl) {
         })
 }
 
-const generateProblem = (problem, input, week = '00') => (
-    `
+function generateProblem(problem, input, week = '00') {
+    return `
 mkdir -p week-${week}/${problem}
 cp template.cpp week-${week}/${problem}/main.cpp
 cat << "HERE-DOC-END" > week-${week}/${problem}/input
 ${input}
 HERE-DOC-END
 `
-)
+}
 
 
-const getProperName = (problem) => (
-    problem.replaceAll(' ', '-').toLowerCase().replaceAll(/[^-a-z]/g, '')
-)
+function getProperName(problem) {
+    return problem.replaceAll(' ', '-').toLowerCase().replaceAll(/[^-a-z]/g, '')
+}
 
-const getWeek = () => {
+function getWeek() {
     const zerothWeek = new Date(2023, 1, 15)
     const now = new Date()
 
@@ -44,7 +44,7 @@ const getWeek = () => {
     return `${weeks}`.padStart(2, '0')
 }
 
-const generate = async (week = getWeek()) => {
+async function generate(week = getWeek()) {
     const nodes = document.getElementsByClassName('problems')[0]
         .getElementsByTagName('tbody')[0]
         .childNodes
