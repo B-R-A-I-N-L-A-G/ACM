@@ -97,3 +97,48 @@ project(week-02-h-moving-dots)
 add_executable(week-02-h-moving-dots week-02/h-moving-dots/main.cpp)
 target_compile_options(week-02-h-moving-dots PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-02/h-moving-dots)
 
+
+project(week-03-a-exponential-equation)
+add_executable(week-03-a-exponential-equation week-03/a-exponential-equation/main.cpp)
+target_compile_options(week-03-a-exponential-equation PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/a-exponential-equation)
+
+
+project(week-03-b-paint-the-numbers)
+add_executable(week-03-b-paint-the-numbers week-03/b-paint-the-numbers/main.cpp)
+target_compile_options(week-03-b-paint-the-numbers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/b-paint-the-numbers)
+
+
+project(week-03-c-the-number-of-products)
+add_executable(week-03-c-the-number-of-products week-03/c-the-number-of-products/main.cpp)
+target_compile_options(week-03-c-the-number-of-products PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/c-the-number-of-products)
+
+
+project(week-03-d-divisible-numbers-hard-version)
+add_executable(week-03-d-divisible-numbers-hard-version week-03/d-divisible-numbers-hard-version/main.cpp)
+target_compile_options(week-03-d-divisible-numbers-hard-version PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/d-divisible-numbers-hard-version)
+
+
+project(week-03-e-beautiful-graph)
+add_executable(week-03-e-beautiful-graph week-03/e-beautiful-graph/main.cpp)
+target_compile_options(week-03-e-beautiful-graph PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/e-beautiful-graph)
+
+
+project(week-03-f-mashmokh-and-acm)
+add_executable(week-03-f-mashmokh-and-acm week-03/f-mashmokh-and-acm/main.cpp)
+target_compile_options(week-03-f-mashmokh-and-acm PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/f-mashmokh-and-acm)
+
+
+project(week-03-g-enlarge-gcd)
+add_executable(week-03-g-enlarge-gcd week-03/g-enlarge-gcd/main.cpp)
+target_compile_options(week-03-g-enlarge-gcd PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/g-enlarge-gcd)
+
+
+project(week-03-h-wish-i-knew-how-to-sort)
+add_executable(week-03-h-wish-i-knew-how-to-sort week-03/h-wish-i-knew-how-to-sort/main.cpp)
+target_compile_options(week-03-h-wish-i-knew-how-to-sort PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/h-wish-i-knew-how-to-sort)
+
+
+project(week-03-i-deleting-numbers)
+add_executable(week-03-i-deleting-numbers week-03/i-deleting-numbers/main.cpp)
+target_compile_options(week-03-i-deleting-numbers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/i-deleting-numbers)
+
