@@ -4,6 +4,7 @@
 #include <bitset>
 #include <concepts>
 #include <ctime>
+#include <filesystem>
 #include <functional>
 #include <iomanip>
 #include <iostream>
@@ -44,6 +45,40 @@ namespace rng = std::ranges;
 #define int ll
 
 //kubik
+
+#ifdef MAIN_DIR_PATH
+signed runTask();
+
+void openAndRunInputs() {
+    namespace fs = std::filesystem;
+
+    auto dir = fs::directory_iterator(STRINGIZE_VALUE_OF(MAIN_DIR_PATH));
+    vector<string> files;
+    for (auto & item : dir) {
+        if (item.path().has_filename()) {
+            const auto & name = item.path().filename();
+            if (!name.string().starts_with("input-")) continue;
+            files.emplace_back(item.path().string());
+        }
+    }
+
+    sort(files.begin(), files.end());
+    for (string & file : files) {
+        cout << "======================================================================" << endl;
+        cout << "= Running input file " << file << endl;
+        cout << "======================================================================" << endl;
+        freopen(file.c_str(), "r", stdin);
+        runTask();
+    }
+}
+
+#define OPEN_AND_RUN_INPUTS  openAndRunInputs();    \
+}                                                   \
+signed runTask() {
+
+#else
+#define OPEN_AND_RUN_INPUTS
+#endif
 
 //endregion
 
@@ -165,9 +200,8 @@ vector<int> randomInput(size_t count, int maxCoord) {
 
 
 signed main() {
-#ifdef MAIN_DIR_PATH
-    freopen(STRINGIZE_VALUE_OF(MAIN_DIR_PATH)"/input", "r", stdin);
-#endif
+    OPEN_AND_RUN_INPUTS
+
     ios::sync_with_stdio(false);
     cin.tie(0);
 
