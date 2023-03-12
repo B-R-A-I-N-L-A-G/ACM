@@ -114,10 +114,9 @@ signed main() {
 
     ios::sync_with_stdio(false);
     cin.tie(0);
-    runTask();
+
+    
+
     return 0;
 }
 //endregion
-
-void runTask() {
-}
