@@ -114,8 +114,10 @@ signed main() {
 }
 using Graph = unordered_map<int, unordered_set<int>>;
 //endregion
-std::unordered_map<int,size_t> BFS (const Graph & graph, int start, std::unordered_set<int> & visited) {
+std::pair<std::unordered_map<int,size_t>, std::unordered_map<int, unordered_set<int>>> BFS (const Graph & graph, int start, std::unordered_set<int> & visited) {
     std::unordered_map<int, size_t> distanceMap;
+    std::unordered_map<int, unordered_set<int>> edgesUsed;
+
     queue<int> q;
     q.push(start);
     visited.insert(start);
@@ -125,6 +127,8 @@ std::unordered_map<int,size_t> BFS (const Graph & graph, int start, std::unorder
         q.pop();
         if (!graph.contains(vertex)) continue;
         for (const auto &neighbour: graph.at(vertex)) {
+            edgesUsed[vertex].insert(neighbour);
+            edgesUsed[neighbour].insert(vertex);
             if (!visited.contains(neighbour)) {
                 q.push(neighbour);
                 visited.insert(neighbour);
@@ -132,13 +136,24 @@ std::unordered_map<int,size_t> BFS (const Graph & graph, int start, std::unorder
             }
         }
     }
+    return {distanceMap, edgesUsed};
+}
+int fast_power(int number, int power) {
+    if (power == 1) {
+        return number;
+    }
+    if (power % 2 == 1) {
+        return number * fast_power(number, power - 1)%998244353;
+    }
+    int powah = fast_power(number, power / 2)%998244353;
+    return (powah * powah)%998244353;
 }
 void runTask() {
 
     int t;
     cin >> t;
     for (int i = 0; i < t; ++i) {
-        int result = 0;
+        int result = 1;
         int vertexCount, edges;
         cin >> vertexCount >> edges;
         unordered_set<int> vertices(vertexCount);
@@ -153,27 +168,29 @@ void runTask() {
         unordered_set<int> visited;
         for (const auto &item: vertices) {
             if (!visited.contains(item)) {
-                auto distanceMap = BFS(graph, item, visited);
-
-                //todo: Finish implementing this bullshit:
-//                Algoritmus Bipart
-//                Vstup: Souvislý graf G = (V, E).
-//                (1) Zvol libovolně počáteční vrchol v0.
-//                (2) Pomocí BFS spočti vzdálenosti všech vrcholů od v0.
-//                (3) Pro každou hranu {u, v} ověř, jestli d(v0, u)  != d(v0, v).
-//                (4) Pokud existuje hrana {u, v} tak, že d(v0, u) = d(v0, v):
-//                (5)       return Není bipartitní.
-//                (6) Jinak return Je bipartitní.
-// VIZ courses AG2 - přednáška 2
-
-                //todo: If the component is not bipartite graph, dump it and cout << 0 << endl
-                // If it is, and the graph is not connected (we have multiple bipartite components)
-                // multiply the result from each component
-                // result for each component can be obtained trivially, it's 2^k,
-                // where k is the amount of vertices in the larger bipartite component,
-                // we're counting subsets of k vertices, where each vertex can have number 1 or 3
-                // if the components have same amount of vertices, then it's 2 * 2^k
+                auto [distanceMap, edgesUsed] = BFS(graph, item, visited);
+                for (const auto &[from, edgesSet] : edgesUsed) {
+                    for (const auto &to: edgesSet) {
+                        if (distanceMap[from] == distanceMap[to] && from != to) {
+                            cout << 0 << endl;
+                            goto end;
+                        }
+                    }
+                }
+                int c1 = 0, c2 = 0;
+                for (const auto &[vertex, distance]: distanceMap) {
+                    if (distance%2) c2++;
+                    else c1++;
+                }
+                result *= (fast_power(2,c1) + fast_power(2, c2))%998244353;
+                result %= 998244353;
             }
         }
+        if (vertices.size() < (size_t)vertexCount) {
+            result *= fast_power(3, vertexCount-vertices.size())%998244353;
+            result %= 998244353;
+        }
+        cout << result << endl;
+        end:;
     }
 }
