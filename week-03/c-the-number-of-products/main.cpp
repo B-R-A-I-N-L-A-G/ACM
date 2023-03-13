@@ -42,7 +42,10 @@ using ld = long double;
 using fast = std::int_fast32_t;
 template<typename T> using uset = unordered_set<T>;
 template<typename K, typename V> using umap = unordered_map<K, V>;
+
+#ifndef __APPLE__
 namespace rng = std::ranges;
+#endif
 
 template<typename T>
 ostream &operator<<(ostream &os, const vector<T> &v) {
@@ -66,53 +69,71 @@ istream &operator>>(istream &is, pair<T, K> &p) { return is >> p.first >> p.seco
 
 #define int ll
 
-bool runInDebug();
-
-void runTask();
+//kubik
 
 #ifdef MAIN_DIR_PATH
+signed runTask();
 
-bool runInDebug() {
+void openAndRunInputs() {
     namespace fs = std::filesystem;
-    auto inputRegex = regex("input-\\d{2}");
 
     auto dir = fs::directory_iterator(STRINGIZE_VALUE_OF(MAIN_DIR_PATH));
     vector<string> files;
-    for (auto &item: dir) {
+    for (auto & item : dir) {
         if (item.path().has_filename()) {
-            const auto &name = item.path().filename();
-            if (!regex_match(name.string(), inputRegex)) continue;
+            const auto & name = item.path().filename();
+            if (!name.string().starts_with("input-")) continue;
             files.emplace_back(item.path().string());
         }
     }
 
     sort(files.begin(), files.end());
-    for (string &file: files) {
+    for (string & file : files) {
         cout << "======================================================================" << endl;
         cout << "= Running input file " << file << endl;
         cout << "======================================================================" << endl;
         freopen(file.c_str(), "r", stdin);
         runTask();
     }
-    return true;
 }
+
+#define OPEN_AND_RUN_INPUTS  openAndRunInputs();    \
+}                                                   \
+signed runTask() {
 
 #else
-bool runInDebug(){
-    return false;
-}
+#define OPEN_AND_RUN_INPUTS
 #endif
 
+//endregion
+
+
 signed main() {
-    if (runInDebug())
-        return 0;
+OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
     cin.tie(0);
-    runTask();
+
+    int n; cin >> n;
+
+    int posSum = 0, negSum = 0;
+    int pos = 0, neg = 0;
+
+    for (int i = 0; i < n; ++i) {
+        int in; cin >> in;
+
+        if (in > 0) {
+            pos += 1;
+        } else {
+            swap(pos, neg);
+            neg += 1;
+        }
+
+        posSum += pos;
+        negSum += neg;
+    }
+
+    std::cout << negSum << " " << posSum << std::endl;
     return 0;
 }
 //endregion
-
-void runTask() {
-}
