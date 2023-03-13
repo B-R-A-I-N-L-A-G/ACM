@@ -115,28 +115,4 @@ signed main() {
 //endregion
 
 void runTask() {
-    int n;
-    cin >> n;
-    vector<bool> negatives;
-    for (int i = 0; i < n; ++i) {
-        int num;
-        cin >> num;
-        num > 0 ? negatives.push_back(false) : negatives.push_back(true);
-    }
-    int resultPositive = 0;
-    int resultNegative = 0;
-    for (int l = 0; l < n; ++l) {
-        int negativesInBox = 0;
-        for (int r = l; r < n; ++r) {
-            if (negatives[r]) {
-                negativesInBox++;
-            }
-            if (negativesInBox % 2) {
-                resultNegative++;
-            } else {
-                resultPositive++;
-            }
-        }
-    }
-    cout << resultNegative << " " << resultPositive << endl;
 }
