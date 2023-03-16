@@ -142,3 +142,73 @@ project(week-03-i-deleting-numbers)
 add_executable(week-03-i-deleting-numbers week-03/i-deleting-numbers/main.cpp)
 target_compile_options(week-03-i-deleting-numbers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-03/i-deleting-numbers)
 
+
+project(week-04-a-walking-boy)
+add_executable(week-04-a-walking-boy week-04/a-walking-boy/main.cpp)
+target_compile_options(week-04-a-walking-boy PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/a-walking-boy)
+
+
+project(week-04-b-vittorio-plays-with-lego-bricks)
+add_executable(week-04-b-vittorio-plays-with-lego-bricks week-04/b-vittorio-plays-with-lego-bricks/main.cpp)
+target_compile_options(week-04-b-vittorio-plays-with-lego-bricks PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/b-vittorio-plays-with-lego-bricks)
+
+
+project(week-04-c-library-game)
+add_executable(week-04-c-library-game week-04/c-library-game/main.cpp)
+target_compile_options(week-04-c-library-game PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/c-library-game)
+
+
+project(week-04-d-teamwork)
+add_executable(week-04-d-teamwork week-04/d-teamwork/main.cpp)
+target_compile_options(week-04-d-teamwork PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/d-teamwork)
+
+
+project(week-04-e-crossing-the-railways)
+add_executable(week-04-e-crossing-the-railways week-04/e-crossing-the-railways/main.cpp)
+target_compile_options(week-04-e-crossing-the-railways PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/e-crossing-the-railways)
+
+
+project(week-04-f-train-splitting)
+add_executable(week-04-f-train-splitting week-04/f-train-splitting/main.cpp)
+target_compile_options(week-04-f-train-splitting PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/f-train-splitting)
+
+
+project(week-04-g-another-wine-tasting-event)
+add_executable(week-04-g-another-wine-tasting-event week-04/g-another-wine-tasting-event/main.cpp)
+target_compile_options(week-04-g-another-wine-tasting-event PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/g-another-wine-tasting-event)
+
+
+project(week-04-h-beppa-and-swerchat)
+add_executable(week-04-h-beppa-and-swerchat week-04/h-beppa-and-swerchat/main.cpp)
+target_compile_options(week-04-h-beppa-and-swerchat PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/h-beppa-and-swerchat)
+
+
+project(week-04-i-spinach-pizza)
+add_executable(week-04-i-spinach-pizza week-04/i-spinach-pizza/main.cpp)
+target_compile_options(week-04-i-spinach-pizza PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/i-spinach-pizza)
+
+
+project(week-04-j-italian-data-centers)
+add_executable(week-04-j-italian-data-centers week-04/j-italian-data-centers/main.cpp)
+target_compile_options(week-04-j-italian-data-centers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/j-italian-data-centers)
+
+
+project(week-04-k-uniform-chemistry)
+add_executable(week-04-k-uniform-chemistry week-04/k-uniform-chemistry/main.cpp)
+target_compile_options(week-04-k-uniform-chemistry PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/k-uniform-chemistry)
+
+
+project(week-04-l-controllers)
+add_executable(week-04-l-controllers week-04/l-controllers/main.cpp)
+target_compile_options(week-04-l-controllers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/l-controllers)
+
+
+project(week-04-m-parmigiana-with-seafood)
+add_executable(week-04-m-parmigiana-with-seafood week-04/m-parmigiana-with-seafood/main.cpp)
+target_compile_options(week-04-m-parmigiana-with-seafood PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/m-parmigiana-with-seafood)
+
+
+project(week-04-n-count-permutations)
+add_executable(week-04-n-count-permutations week-04/n-count-permutations/main.cpp)
+target_compile_options(week-04-n-count-permutations PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/n-count-permutations)
+
