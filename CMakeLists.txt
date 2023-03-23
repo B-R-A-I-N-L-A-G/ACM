@@ -1,62 +1,12 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.22)
 project(ACM)
 
 set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -pedantic")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D DEBUG -D LOCAL -D _GLIBCXX_DEBUG -D _GLIBCXX_DEBUG_PEDANTIC -D _FORTIFY_SOURCE=2")
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fstack-clash-protection -fstack-protector-all")
-
-project(week-01-a-black-and-white-stripe)
-add_executable(week-01-a-black-and-white-stripe week-01/a-black-and-white-stripe/main.cpp)
-target_compile_options(week-01-a-black-and-white-stripe PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/a-black-and-white-stripe)
-
-
-project(week-01-b-everyone-is-a-winner)
-add_executable(week-01-b-everyone-is-a-winner week-01/b-everyone-is-a-winner/main.cpp)
-target_compile_options(week-01-b-everyone-is-a-winner PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/b-everyone-is-a-winner)
-
-
-project(week-01-c-frog-traveler)
-add_executable(week-01-c-frog-traveler week-01/c-frog-traveler/main.cpp)
-target_compile_options(week-01-c-frog-traveler PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/c-frog-traveler)
-
-
-project(week-01-d-the-artful-expedient)
-add_executable(week-01-d-the-artful-expedient week-01/d-the-artful-expedient/main.cpp)
-target_compile_options(week-01-d-the-artful-expedient PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/d-the-artful-expedient)
-
-
-project(week-01-e-maximum-subsequence)
-add_executable(week-01-e-maximum-subsequence week-01/e-maximum-subsequence/main.cpp)
-target_compile_options(week-01-e-maximum-subsequence PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/e-maximum-subsequence)
-
-
-project(week-01-f-same-differences)
-add_executable(week-01-f-same-differences week-01/f-same-differences/main.cpp)
-target_compile_options(week-01-f-same-differences PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/f-same-differences)
-
-
-project(week-01-g-little-pony-and-expected-maximum)
-add_executable(week-01-g-little-pony-and-expected-maximum week-01/g-little-pony-and-expected-maximum/main.cpp)
-target_compile_options(week-01-g-little-pony-and-expected-maximum PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/g-little-pony-and-expected-maximum)
-
-
-project(week-01-h-string-equality)
-add_executable(week-01-h-string-equality week-01/h-string-equality/main.cpp)
-target_compile_options(week-01-h-string-equality PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/h-string-equality)
-
-
-project(week-01-i-maximum-value)
-add_executable(week-01-i-maximum-value week-01/i-maximum-value/main.cpp)
-target_compile_options(week-01-i-maximum-value PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/i-maximum-value)
-
-
-project(week-01-j-interesting-drink)
-add_executable(week-01-j-interesting-drink week-01/j-interesting-drink/main.cpp)
-target_compile_options(week-01-j-interesting-drink PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/j-interesting-drink)
-
 
 project(week-02-a-meeting-on-the-line)
 add_executable(week-02-a-meeting-on-the-line week-02/a-meeting-on-the-line/main.cpp)
@@ -211,4 +161,109 @@ target_compile_options(week-04-m-parmigiana-with-seafood PRIVATE -DMAIN_DIR_PATH
 project(week-04-n-count-permutations)
 add_executable(week-04-n-count-permutations week-04/n-count-permutations/main.cpp)
 target_compile_options(week-04-n-count-permutations PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-04/n-count-permutations)
+
+
+project(week-01-a-black-and-white-stripe)
+add_executable(week-01-a-black-and-white-stripe week-01/a-black-and-white-stripe/main.cpp)
+target_compile_options(week-01-a-black-and-white-stripe PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/a-black-and-white-stripe)
+
+
+project(week-01-b-everyone-is-a-winner)
+add_executable(week-01-b-everyone-is-a-winner week-01/b-everyone-is-a-winner/main.cpp)
+target_compile_options(week-01-b-everyone-is-a-winner PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/b-everyone-is-a-winner)
+
+
+project(week-01-c-frog-traveler)
+add_executable(week-01-c-frog-traveler week-01/c-frog-traveler/main.cpp)
+target_compile_options(week-01-c-frog-traveler PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/c-frog-traveler)
+
+
+project(week-01-d-the-artful-expedient)
+add_executable(week-01-d-the-artful-expedient week-01/d-the-artful-expedient/main.cpp)
+target_compile_options(week-01-d-the-artful-expedient PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/d-the-artful-expedient)
+
+
+project(week-01-e-maximum-subsequence)
+add_executable(week-01-e-maximum-subsequence week-01/e-maximum-subsequence/main.cpp)
+target_compile_options(week-01-e-maximum-subsequence PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/e-maximum-subsequence)
+
+
+project(week-01-f-same-differences)
+add_executable(week-01-f-same-differences week-01/f-same-differences/main.cpp)
+target_compile_options(week-01-f-same-differences PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/f-same-differences)
+
+
+project(week-01-g-little-pony-and-expected-maximum)
+add_executable(week-01-g-little-pony-and-expected-maximum week-01/g-little-pony-and-expected-maximum/main.cpp)
+target_compile_options(week-01-g-little-pony-and-expected-maximum PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/g-little-pony-and-expected-maximum)
+
+
+project(week-01-h-string-equality)
+add_executable(week-01-h-string-equality week-01/h-string-equality/main.cpp)
+target_compile_options(week-01-h-string-equality PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/h-string-equality)
+
+
+project(week-01-i-maximum-value)
+add_executable(week-01-i-maximum-value week-01/i-maximum-value/main.cpp)
+target_compile_options(week-01-i-maximum-value PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/i-maximum-value)
+
+
+project(week-01-j-interesting-drink)
+add_executable(week-01-j-interesting-drink week-01/j-interesting-drink/main.cpp)
+target_compile_options(week-01-j-interesting-drink PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-01/j-interesting-drink)
+
+
+project(week-05-b-business-stamps)
+add_executable(week-05-b-business-stamps week-05/b-business-stamps/main.cpp)
+target_compile_options(week-05-b-business-stamps PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/b-business-stamps)
+
+
+project(week-05-c-company-layoffs)
+add_executable(week-05-c-company-layoffs week-05/c-company-layoffs/main.cpp)
+target_compile_options(week-05-c-company-layoffs PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/c-company-layoffs)
+
+
+project(week-05-d-denji)
+add_executable(week-05-d-denji week-05/d-denji/main.cpp)
+target_compile_options(week-05-d-denji PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/d-denji)
+
+
+project(week-05-e-exam-period)
+add_executable(week-05-e-exam-period week-05/e-exam-period/main.cpp)
+target_compile_options(week-05-e-exam-period PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/e-exam-period)
+
+
+project(week-05-f-fence-painting)
+add_executable(week-05-f-fence-painting week-05/f-fence-painting/main.cpp)
+target_compile_options(week-05-f-fence-painting PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/f-fence-painting)
+
+
+project(week-05-g-gustavos-modern-art)
+add_executable(week-05-g-gustavos-modern-art week-05/g-gustavos-modern-art/main.cpp)
+target_compile_options(week-05-g-gustavos-modern-art PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/g-gustavos-modern-art)
+
+
+project(week-05-h-homework)
+add_executable(week-05-h-homework week-05/h-homework/main.cpp)
+target_compile_options(week-05-h-homework PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/h-homework)
+
+
+project(week-05-i-ivan-and-mega-queries)
+add_executable(week-05-i-ivan-and-mega-queries week-05/i-ivan-and-mega-queries/main.cpp)
+target_compile_options(week-05-i-ivan-and-mega-queries PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/i-ivan-and-mega-queries)
+
+
+project(week-05-j-joyful-city)
+add_executable(week-05-j-joyful-city week-05/j-joyful-city/main.cpp)
+target_compile_options(week-05-j-joyful-city PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/j-joyful-city)
+
+
+project(week-05-k-keypad-repetitions)
+add_executable(week-05-k-keypad-repetitions week-05/k-keypad-repetitions/main.cpp)
+target_compile_options(week-05-k-keypad-repetitions PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/k-keypad-repetitions)
+
+
+project(week-05-l-ladybug-and-the-bullet-train)
+add_executable(week-05-l-ladybug-and-the-bullet-train week-05/l-ladybug-and-the-bullet-train/main.cpp)
+target_compile_options(week-05-l-ladybug-and-the-bullet-train PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/l-ladybug-and-the-bullet-train)
 
