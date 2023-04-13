@@ -92,6 +92,7 @@ void openAndRunInputs() {
         cout << "======================================================================" << endl;
         cout << "= Running input file " << file << endl;
         cout << "======================================================================" << endl;
+        cin.clear();
         freopen(file.c_str(), "r", stdin);
         runTask();
     }

@@ -108,6 +108,19 @@ signed runTask() {
 //endregion
 
 
+struct Node {
+    vector<Node *> nodes;
+};
+
+
+size_t depth (const Node & node) {
+    size_t d = 0;
+    for (Node * child : node.nodes) {
+        d = max(d, depth(*child));
+    }
+    return d + 1;
+}
+
 
 signed main() {
     OPEN_AND_RUN_INPUTS
@@ -115,8 +128,22 @@ signed main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    size_t n; cin >> n;
 
+    vector<unique_ptr<Node>> allNodes(n);
+    for (auto & node : allNodes) node = make_unique<Node>();
 
+    Node root;
+    for (size_t i = 0; i < n; ++i) {
+        int m; cin >> m;
+        if (m == -1) {
+            root.nodes.push_back(allNodes[i].get());
+        } else {
+            allNodes[m - 1]->nodes.push_back(allNodes[i].get());
+        }
+    }
+
+    cout << depth(root) - 1 << endl;
     return 0;
 }
 //endregion

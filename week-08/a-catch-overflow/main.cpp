@@ -92,6 +92,8 @@ void openAndRunInputs() {
         cout << "======================================================================" << endl;
         cout << "= Running input file " << file << endl;
         cout << "======================================================================" << endl;
+
+        cin.clear();
         freopen(file.c_str(), "r", stdin);
         runTask();
     }
@@ -107,7 +109,32 @@ signed runTask() {
 
 //endregion
 
+uint32_t run () {
+    uint32_t n = 0;
 
+    while (true) {
+        char c, a; cin >> c >> a >> a;
+        if (!cin) return n;
+
+        if (c == 'a') {
+            if (n == numeric_limits<uint32_t>::max()) {
+                throw runtime_error("");
+            }
+
+            n += 1;
+        } else if (c == 'e') {
+            return n;
+        } else if (c == 'f') {
+            uint32_t f; cin >> f;
+            uint32_t th = numeric_limits<uint32_t>::max() / f;
+
+            uint32_t fc = run();
+            if (fc > th) throw runtime_error("");
+            if (numeric_limits<uint32_t>::max() - n < fc * f) throw runtime_error("");
+            n += fc * f;
+        }
+    }
+}
 
 signed main() {
     OPEN_AND_RUN_INPUTS
@@ -115,7 +142,14 @@ signed main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    try {
+        int lines; cin >> lines;
 
+        uint32_t x = run();
+        cout << x << endl;
+    } catch (...) {
+        cout << "OVERFLOW!!!" << endl;
+    }
 
     return 0;
 }
