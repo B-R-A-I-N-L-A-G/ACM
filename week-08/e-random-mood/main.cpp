@@ -72,7 +72,6 @@ istream &operator>>(istream &is, pair<T, K> &p) { return is >> p.first >> p.seco
 //kubik
 
 #ifdef MAIN_DIR_PATH
-
 signed runTask();
 
 void openAndRunInputs() {
@@ -80,16 +79,16 @@ void openAndRunInputs() {
 
     auto dir = fs::directory_iterator(STRINGIZE_VALUE_OF(MAIN_DIR_PATH));
     vector<string> files;
-    for (auto &item: dir) {
+    for (auto & item : dir) {
         if (item.path().has_filename()) {
-            const auto &name = item.path().filename();
+            const auto & name = item.path().filename();
             if (!name.string().starts_with("input-")) continue;
             files.emplace_back(item.path().string());
         }
     }
 
     sort(files.begin(), files.end());
-    for (string &file: files) {
+    for (string & file : files) {
         cout << "======================================================================" << endl;
         cout << "= Running input file " << file << endl;
         cout << "======================================================================" << endl;
@@ -108,6 +107,7 @@ signed runTask() {
 
 //endregion
 
+
 std::vector<int> factorials = {1, 1, 2, 6, 24, 120};
 
 int wrapper(int n, int k) {
@@ -124,31 +124,33 @@ int factorial(int n) {
         return wrapper(n,l);
     }
 }
-int binom (int n, int k) {
-    return factorial(n)/ (factorial(n-k)* factorial(k));
+double binom (int n, int k) {
+    return log(factorial(n)) - log(factorial(n-k)) - log(factorial(k));
 }
 
-double super_smart_algo(int n, int k, double p, int s, int r) {
+double super_smart_algo(int n, int k, double p) {
     int a = 1;
     int l = 1;
-
+    int __GLIBCDEBUG = 1;
+    int s = n-k, r = k;
     double res = 1;
-
     while(a <= n){
-
-        if(s--) {
-            res *= p;
-        }
-        if(r--) {
+        if(s) {
+            if(--s<0) return 1/0;
             res *= 1-p;
         }
+        if(r) {
+            if(--r<0) return 1/0;
+            res *= p;
+        }
         res *= a++;
-
         if(l <= k) {
             res /= l++;
         }
+        if(__GLIBCDEBUG <= n-k) {
+            res /= __GLIBCDEBUG++;
+        }
     }
-    res /= factorial(n-k);
     return res;
 }
 
@@ -167,22 +169,21 @@ long double fast_power(long double number, int power) {
 }
 signed main() {
 OPEN_AND_RUN_INPUTS
-
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int seconds;
-    double prob;
+    long double prob;
     cin >> seconds >> prob;
-    if (seconds == 1) {
-        cout << setprecision(10) << (1 - prob) << endl;
-        return 0;
+
+    double res = 1.0;
+    while(seconds>0){
+        if(seconds%2){
+            res = res*(1-prob)+prob*(1-res);
+        }
+        prob = 2*prob*(1-prob);
+        seconds /= 2;
     }
-    long double res = 0;
-    for (int i = 0; i <= seconds; i+=2) {
-        res += super_smart_algo(seconds, i,prob,i, seconds-i);
-//        res += fast_power((1-prob),seconds-i) * binom(seconds, i) * fast_power(prob,i);
-    }
-    cout << setprecision(10) << res << endl;
+    cout << setprecision(10) << res<< endl;
     return 0;
 }
 //endregion
