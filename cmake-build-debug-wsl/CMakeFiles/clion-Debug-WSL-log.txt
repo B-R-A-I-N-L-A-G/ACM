@@ -1,0 +1,4 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/ntb/codeforces/ACM/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/ntb/codeforces/ACM -B /home/ntb/codeforces/ACM/cmake-build-debug-wsl"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ntb/codeforces/ACM/cmake-build-debug-wsl

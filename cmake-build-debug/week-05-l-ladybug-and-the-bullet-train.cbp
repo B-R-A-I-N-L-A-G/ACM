@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="week-05-l-ladybug-and-the-bullet-train"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-a-meeting-on-the-line">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-a-meeting-on-the-line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-a-meeting-on-the-line"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-a-meeting-on-the-line/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-a-meeting-on-the-line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-a-meeting-on-the-line/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-b-minimum-notation">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-b-minimum-notation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-b-minimum-notation"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-b-minimum-notation/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-b-minimum-notation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-b-minimum-notation/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-c-prefixes-and-suffixes">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-c-prefixes-and-suffixes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-c-prefixes-and-suffixes"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-c-prefixes-and-suffixes/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-c-prefixes-and-suffixes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-c-prefixes-and-suffixes/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-d-fedya-and-array">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-d-fedya-and-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-d-fedya-and-array"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-d-fedya-and-array/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-d-fedya-and-array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-d-fedya-and-array/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-e-dora-and-search">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-e-dora-and-search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-e-dora-and-search"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-e-dora-and-search/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-e-dora-and-search" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-e-dora-and-search/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-f-moscow-gorillas">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-f-moscow-gorillas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-f-moscow-gorillas"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-f-moscow-gorillas/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-f-moscow-gorillas" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-f-moscow-gorillas/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-g-matching-numbers">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-g-matching-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-g-matching-numbers"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-g-matching-numbers/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-g-matching-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-g-matching-numbers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-h-moving-dots">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-h-moving-dots" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-h-moving-dots"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-02-h-moving-dots/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-02-h-moving-dots" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-02-h-moving-dots/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-a-exponential-equation">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-a-exponential-equation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-a-exponential-equation"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-a-exponential-equation/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-a-exponential-equation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-a-exponential-equation/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-b-paint-the-numbers">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-b-paint-the-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-b-paint-the-numbers"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-b-paint-the-numbers/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-b-paint-the-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-b-paint-the-numbers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-c-the-number-of-products">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-c-the-number-of-products" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-c-the-number-of-products"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-c-the-number-of-products/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-c-the-number-of-products" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-c-the-number-of-products/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-d-divisible-numbers-hard-version">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-d-divisible-numbers-hard-version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-d-divisible-numbers-hard-version"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-d-divisible-numbers-hard-version/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-d-divisible-numbers-hard-version" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-d-divisible-numbers-hard-version/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-e-beautiful-graph">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-e-beautiful-graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-e-beautiful-graph"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-e-beautiful-graph/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-e-beautiful-graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-e-beautiful-graph/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-f-mashmokh-and-acm">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-f-mashmokh-and-acm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-f-mashmokh-and-acm"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-f-mashmokh-and-acm/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-f-mashmokh-and-acm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-f-mashmokh-and-acm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-g-enlarge-gcd">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-g-enlarge-gcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-g-enlarge-gcd"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-g-enlarge-gcd/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-g-enlarge-gcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-g-enlarge-gcd/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-h-wish-i-knew-how-to-sort">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-h-wish-i-knew-how-to-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-h-wish-i-knew-how-to-sort"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-h-wish-i-knew-how-to-sort/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-h-wish-i-knew-how-to-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-h-wish-i-knew-how-to-sort/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-i-deleting-numbers">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-i-deleting-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-i-deleting-numbers"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-03-i-deleting-numbers/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-03-i-deleting-numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-03-i-deleting-numbers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-a-walking-boy">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-a-walking-boy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-a-walking-boy"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-a-walking-boy/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-a-walking-boy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-a-walking-boy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-b-vittorio-plays-with-lego-bricks">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-b-vittorio-plays-with-lego-bricks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-b-vittorio-plays-with-lego-bricks"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-b-vittorio-plays-with-lego-bricks/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-b-vittorio-plays-with-lego-bricks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-b-vittorio-plays-with-lego-bricks/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-c-library-game">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-c-library-game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-c-library-game"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-c-library-game/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-c-library-game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-c-library-game/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-d-teamwork">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-d-teamwork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-d-teamwork"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-d-teamwork/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-d-teamwork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-d-teamwork/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-e-crossing-the-railways">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-e-crossing-the-railways" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-e-crossing-the-railways"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-e-crossing-the-railways/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-e-crossing-the-railways" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-e-crossing-the-railways/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-f-train-splitting">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-f-train-splitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-f-train-splitting"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-f-train-splitting/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-f-train-splitting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-f-train-splitting/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-g-another-wine-tasting-event">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-g-another-wine-tasting-event" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-g-another-wine-tasting-event"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-g-another-wine-tasting-event/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-g-another-wine-tasting-event" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-g-another-wine-tasting-event/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-h-beppa-and-swerchat">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-h-beppa-and-swerchat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-h-beppa-and-swerchat"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-h-beppa-and-swerchat/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-h-beppa-and-swerchat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-h-beppa-and-swerchat/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-i-spinach-pizza">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-i-spinach-pizza" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-i-spinach-pizza"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-i-spinach-pizza/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-i-spinach-pizza" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-i-spinach-pizza/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-j-italian-data-centers">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-j-italian-data-centers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-j-italian-data-centers"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-j-italian-data-centers/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-j-italian-data-centers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-j-italian-data-centers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-k-uniform-chemistry">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-k-uniform-chemistry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-k-uniform-chemistry"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-k-uniform-chemistry/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-k-uniform-chemistry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-k-uniform-chemistry/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-l-controllers">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-l-controllers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-l-controllers"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-l-controllers/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-l-controllers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-l-controllers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-m-parmigiana-with-seafood">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-m-parmigiana-with-seafood" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-m-parmigiana-with-seafood"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-m-parmigiana-with-seafood/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-m-parmigiana-with-seafood" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-m-parmigiana-with-seafood/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-n-count-permutations">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-n-count-permutations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-n-count-permutations"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-04-n-count-permutations/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-04-n-count-permutations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-04-n-count-permutations/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-a-black-and-white-stripe">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-a-black-and-white-stripe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-a-black-and-white-stripe"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-a-black-and-white-stripe/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-a-black-and-white-stripe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-a-black-and-white-stripe/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-b-everyone-is-a-winner">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-b-everyone-is-a-winner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-b-everyone-is-a-winner"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-b-everyone-is-a-winner/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-b-everyone-is-a-winner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-b-everyone-is-a-winner/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-c-frog-traveler">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-c-frog-traveler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-c-frog-traveler"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-c-frog-traveler/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-c-frog-traveler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-c-frog-traveler/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-d-the-artful-expedient">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-d-the-artful-expedient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-d-the-artful-expedient"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-d-the-artful-expedient/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-d-the-artful-expedient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-d-the-artful-expedient/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-e-maximum-subsequence">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-e-maximum-subsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-e-maximum-subsequence"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-e-maximum-subsequence/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-e-maximum-subsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-e-maximum-subsequence/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-f-same-differences">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-f-same-differences" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-f-same-differences"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-f-same-differences/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-f-same-differences" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-f-same-differences/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-g-little-pony-and-expected-maximum">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-g-little-pony-and-expected-maximum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-g-little-pony-and-expected-maximum"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-g-little-pony-and-expected-maximum/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-g-little-pony-and-expected-maximum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-g-little-pony-and-expected-maximum/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-h-string-equality">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-h-string-equality" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-h-string-equality"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-h-string-equality/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-h-string-equality" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-h-string-equality/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-i-maximum-value">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-i-maximum-value" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-i-maximum-value"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-i-maximum-value/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-i-maximum-value" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-i-maximum-value/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-j-interesting-drink">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-j-interesting-drink" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-j-interesting-drink"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-01-j-interesting-drink/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-01-j-interesting-drink" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-01-j-interesting-drink/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-b-business-stamps">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-b-business-stamps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-b-business-stamps"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-b-business-stamps/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-b-business-stamps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-b-business-stamps/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-c-company-layoffs">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-c-company-layoffs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-c-company-layoffs"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-c-company-layoffs/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-c-company-layoffs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-c-company-layoffs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-d-denji">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-d-denji" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-d-denji"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-d-denji/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-d-denji" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-d-denji/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-e-exam-period">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-e-exam-period" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-e-exam-period"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-e-exam-period/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-e-exam-period" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-e-exam-period/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-f-fence-painting">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-f-fence-painting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-f-fence-painting"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-f-fence-painting/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-f-fence-painting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-f-fence-painting/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-g-gustavos-modern-art">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-g-gustavos-modern-art" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-g-gustavos-modern-art"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-g-gustavos-modern-art/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-g-gustavos-modern-art" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-g-gustavos-modern-art/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-h-homework">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-h-homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-h-homework"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-h-homework/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-h-homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-h-homework/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-i-ivan-and-mega-queries">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-i-ivan-and-mega-queries" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-i-ivan-and-mega-queries"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-i-ivan-and-mega-queries/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-i-ivan-and-mega-queries" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-i-ivan-and-mega-queries/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-j-joyful-city">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-j-joyful-city" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-j-joyful-city"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-j-joyful-city/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-j-joyful-city" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-j-joyful-city/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-k-keypad-repetitions">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-k-keypad-repetitions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-k-keypad-repetitions"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-k-keypad-repetitions/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-k-keypad-repetitions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-k-keypad-repetitions/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-l-ladybug-and-the-bullet-train">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-l-ladybug-and-the-bullet-train" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-l-ladybug-and-the-bullet-train"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="week-05-l-ladybug-and-the-bullet-train/fast">
+				<Option output="/home/ntb/codeforces/ACM/cmake-build-debug/week-05-l-ladybug-and-the-bullet-train" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 week-05-l-ladybug-and-the-bullet-train/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ntb/codeforces/ACM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/ntb/codeforces/ACM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/a-black-and-white-stripe/main.cpp">
+			<Option target="week-01-a-black-and-white-stripe"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/b-everyone-is-a-winner/main.cpp">
+			<Option target="week-01-b-everyone-is-a-winner"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/c-frog-traveler/main.cpp">
+			<Option target="week-01-c-frog-traveler"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/d-the-artful-expedient/main.cpp">
+			<Option target="week-01-d-the-artful-expedient"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/e-maximum-subsequence/main.cpp">
+			<Option target="week-01-e-maximum-subsequence"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/f-same-differences/main.cpp">
+			<Option target="week-01-f-same-differences"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/g-little-pony-and-expected-maximum/main.cpp">
+			<Option target="week-01-g-little-pony-and-expected-maximum"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/h-string-equality/main.cpp">
+			<Option target="week-01-h-string-equality"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/i-maximum-value/main.cpp">
+			<Option target="week-01-i-maximum-value"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-01/j-interesting-drink/main.cpp">
+			<Option target="week-01-j-interesting-drink"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/a-meeting-on-the-line/main.cpp">
+			<Option target="week-02-a-meeting-on-the-line"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/b-minimum-notation/main.cpp">
+			<Option target="week-02-b-minimum-notation"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/c-prefixes-and-suffixes/main.cpp">
+			<Option target="week-02-c-prefixes-and-suffixes"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/d-fedya-and-array/main.cpp">
+			<Option target="week-02-d-fedya-and-array"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/e-dora-and-search/main.cpp">
+			<Option target="week-02-e-dora-and-search"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/f-moscow-gorillas/main.cpp">
+			<Option target="week-02-f-moscow-gorillas"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/g-matching-numbers/main.cpp">
+			<Option target="week-02-g-matching-numbers"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-02/h-moving-dots/main.cpp">
+			<Option target="week-02-h-moving-dots"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/a-exponential-equation/main.cpp">
+			<Option target="week-03-a-exponential-equation"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/b-paint-the-numbers/main.cpp">
+			<Option target="week-03-b-paint-the-numbers"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/c-the-number-of-products/main.cpp">
+			<Option target="week-03-c-the-number-of-products"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/d-divisible-numbers-hard-version/main.cpp">
+			<Option target="week-03-d-divisible-numbers-hard-version"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/e-beautiful-graph/main.cpp">
+			<Option target="week-03-e-beautiful-graph"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/f-mashmokh-and-acm/main.cpp">
+			<Option target="week-03-f-mashmokh-and-acm"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/g-enlarge-gcd/main.cpp">
+			<Option target="week-03-g-enlarge-gcd"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/h-wish-i-knew-how-to-sort/main.cpp">
+			<Option target="week-03-h-wish-i-knew-how-to-sort"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-03/i-deleting-numbers/main.cpp">
+			<Option target="week-03-i-deleting-numbers"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/a-walking-boy/main.cpp">
+			<Option target="week-04-a-walking-boy"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/b-vittorio-plays-with-lego-bricks/main.cpp">
+			<Option target="week-04-b-vittorio-plays-with-lego-bricks"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/c-library-game/main.cpp">
+			<Option target="week-04-c-library-game"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/d-teamwork/main.cpp">
+			<Option target="week-04-d-teamwork"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/e-crossing-the-railways/main.cpp">
+			<Option target="week-04-e-crossing-the-railways"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/f-train-splitting/main.cpp">
+			<Option target="week-04-f-train-splitting"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/g-another-wine-tasting-event/main.cpp">
+			<Option target="week-04-g-another-wine-tasting-event"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/h-beppa-and-swerchat/main.cpp">
+			<Option target="week-04-h-beppa-and-swerchat"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/i-spinach-pizza/main.cpp">
+			<Option target="week-04-i-spinach-pizza"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/j-italian-data-centers/main.cpp">
+			<Option target="week-04-j-italian-data-centers"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/k-uniform-chemistry/main.cpp">
+			<Option target="week-04-k-uniform-chemistry"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/l-controllers/main.cpp">
+			<Option target="week-04-l-controllers"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/m-parmigiana-with-seafood/main.cpp">
+			<Option target="week-04-m-parmigiana-with-seafood"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-04/n-count-permutations/main.cpp">
+			<Option target="week-04-n-count-permutations"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/b-business-stamps/main.cpp">
+			<Option target="week-05-b-business-stamps"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/c-company-layoffs/main.cpp">
+			<Option target="week-05-c-company-layoffs"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/d-denji/main.cpp">
+			<Option target="week-05-d-denji"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/e-exam-period/main.cpp">
+			<Option target="week-05-e-exam-period"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/f-fence-painting/main.cpp">
+			<Option target="week-05-f-fence-painting"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/g-gustavos-modern-art/main.cpp">
+			<Option target="week-05-g-gustavos-modern-art"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/h-homework/main.cpp">
+			<Option target="week-05-h-homework"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/i-ivan-and-mega-queries/main.cpp">
+			<Option target="week-05-i-ivan-and-mega-queries"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/j-joyful-city/main.cpp">
+			<Option target="week-05-j-joyful-city"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/k-keypad-repetitions/main.cpp">
+			<Option target="week-05-k-keypad-repetitions"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/week-05/l-ladybug-and-the-bullet-train/main.cpp">
+			<Option target="week-05-l-ladybug-and-the-bullet-train"/>
+		</Unit>
+		<Unit filename="/home/ntb/codeforces/ACM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

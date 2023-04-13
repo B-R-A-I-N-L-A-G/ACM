@@ -1,0 +1,330 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "week-04-n-count-permutations",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-a-meeting-on-the-line::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-a-meeting-on-the-line-Debug-8c6fe66f50bac7e83231.json",
+					"name" : "week-02-a-meeting-on-the-line",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-b-minimum-notation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-b-minimum-notation-Debug-efda8b6f8b9f491c74e7.json",
+					"name" : "week-02-b-minimum-notation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-c-prefixes-and-suffixes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-c-prefixes-and-suffixes-Debug-635ef08d4cee3ecf8c9b.json",
+					"name" : "week-02-c-prefixes-and-suffixes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-d-fedya-and-array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-d-fedya-and-array-Debug-3a977912bee0d1adf773.json",
+					"name" : "week-02-d-fedya-and-array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-e-dora-and-search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-e-dora-and-search-Debug-3989b411d1b607018bbb.json",
+					"name" : "week-02-e-dora-and-search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-f-moscow-gorillas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-f-moscow-gorillas-Debug-5800fd512ce5c4e94586.json",
+					"name" : "week-02-f-moscow-gorillas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-g-matching-numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-g-matching-numbers-Debug-3742011c7c70663c11d8.json",
+					"name" : "week-02-g-matching-numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-02-h-moving-dots::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-02-h-moving-dots-Debug-ecf296ee870c3184d875.json",
+					"name" : "week-02-h-moving-dots",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-a-exponential-equation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-a-exponential-equation-Debug-40ece872bb8fb62edf6b.json",
+					"name" : "week-03-a-exponential-equation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-b-paint-the-numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-b-paint-the-numbers-Debug-dea628b36a0cf1971a96.json",
+					"name" : "week-03-b-paint-the-numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-c-the-number-of-products::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-c-the-number-of-products-Debug-61d21db5b81b70750d68.json",
+					"name" : "week-03-c-the-number-of-products",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-d-divisible-numbers-hard-version::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-d-divisible-numbers-hard-version-Debug-aadfc9bde9728070491e.json",
+					"name" : "week-03-d-divisible-numbers-hard-version",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-e-beautiful-graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-e-beautiful-graph-Debug-3eb39f0e44e9d2736593.json",
+					"name" : "week-03-e-beautiful-graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-f-mashmokh-and-acm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-f-mashmokh-and-acm-Debug-bbcf625bf4f3bc50e269.json",
+					"name" : "week-03-f-mashmokh-and-acm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-g-enlarge-gcd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-g-enlarge-gcd-Debug-856194f2c8ff9d4c6091.json",
+					"name" : "week-03-g-enlarge-gcd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-h-wish-i-knew-how-to-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-h-wish-i-knew-how-to-sort-Debug-99200e69d164ffed4e81.json",
+					"name" : "week-03-h-wish-i-knew-how-to-sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-03-i-deleting-numbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-03-i-deleting-numbers-Debug-6f3ecb5dff3933a8c26d.json",
+					"name" : "week-03-i-deleting-numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-a-walking-boy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-a-walking-boy-Debug-362c05f967f32d51c34e.json",
+					"name" : "week-04-a-walking-boy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-b-vittorio-plays-with-lego-bricks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-b-vittorio-plays-with-lego-bricks-Debug-bc73b6e651fe0c6d12d8.json",
+					"name" : "week-04-b-vittorio-plays-with-lego-bricks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-c-library-game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-c-library-game-Debug-7928845b5412879d7e75.json",
+					"name" : "week-04-c-library-game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-d-teamwork::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-d-teamwork-Debug-000051214e82aa42e450.json",
+					"name" : "week-04-d-teamwork",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-e-crossing-the-railways::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-e-crossing-the-railways-Debug-073b322a329cc756248b.json",
+					"name" : "week-04-e-crossing-the-railways",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-f-train-splitting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-f-train-splitting-Debug-d53f390b07fe44a829c4.json",
+					"name" : "week-04-f-train-splitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-g-another-wine-tasting-event::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-g-another-wine-tasting-event-Debug-1e2a9ca5f57b9b024d1e.json",
+					"name" : "week-04-g-another-wine-tasting-event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-h-beppa-and-swerchat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-h-beppa-and-swerchat-Debug-a748d16caf46df03ec25.json",
+					"name" : "week-04-h-beppa-and-swerchat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-i-spinach-pizza::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-i-spinach-pizza-Debug-dd8c942bf99f2a3ebb81.json",
+					"name" : "week-04-i-spinach-pizza",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-j-italian-data-centers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-j-italian-data-centers-Debug-fa7bbca8345c6afbb0fe.json",
+					"name" : "week-04-j-italian-data-centers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-k-uniform-chemistry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-k-uniform-chemistry-Debug-a791ee5bed91f7b0515a.json",
+					"name" : "week-04-k-uniform-chemistry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-l-controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-l-controllers-Debug-6c94bed9992274560b5b.json",
+					"name" : "week-04-l-controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-m-parmigiana-with-seafood::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-m-parmigiana-with-seafood-Debug-27174304273f5bfc50df.json",
+					"name" : "week-04-m-parmigiana-with-seafood",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week-04-n-count-permutations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week-04-n-count-permutations-Debug-ac3903c6ada9e8206ccf.json",
+					"name" : "week-04-n-count-permutations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ntb/codeforces/ACM/cmake-build-debug-wsl",
+		"source" : "/home/ntb/codeforces/ACM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

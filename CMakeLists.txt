@@ -267,3 +267,83 @@ project(week-05-l-ladybug-and-the-bullet-train)
 add_executable(week-05-l-ladybug-and-the-bullet-train week-05/l-ladybug-and-the-bullet-train/main.cpp)
 target_compile_options(week-05-l-ladybug-and-the-bullet-train PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-05/l-ladybug-and-the-bullet-train)
 
+
+project(week-06-b-candy-store)
+add_executable(week-06-b-candy-store week-06/b-candy-store/main.cpp)
+target_compile_options(week-06-b-candy-store PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/b-candy-store)
+
+
+project(week-06-c-even-number-addicts)
+add_executable(week-06-c-even-number-addicts week-06/c-even-number-addicts/main.cpp)
+target_compile_options(week-06-c-even-number-addicts PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/c-even-number-addicts)
+
+
+project(week-06-d-scoring-subsequences)
+add_executable(week-06-d-scoring-subsequences week-06/d-scoring-subsequences/main.cpp)
+target_compile_options(week-06-d-scoring-subsequences PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/d-scoring-subsequences)
+
+
+project(week-06-e-sum-on-subarrays)
+add_executable(week-06-e-sum-on-subarrays week-06/e-sum-on-subarrays/main.cpp)
+target_compile_options(week-06-e-sum-on-subarrays PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/e-sum-on-subarrays)
+
+
+project(week-06-f-binary-string-sorting)
+add_executable(week-06-f-binary-string-sorting week-06/f-binary-string-sorting/main.cpp)
+target_compile_options(week-06-f-binary-string-sorting PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/f-binary-string-sorting)
+
+
+project(week-06-g-three-sevens)
+add_executable(week-06-g-three-sevens week-06/g-three-sevens/main.cpp)
+target_compile_options(week-06-g-three-sevens PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/g-three-sevens)
+
+
+project(week-06-h-shocking-arrangement)
+add_executable(week-06-h-shocking-arrangement week-06/h-shocking-arrangement/main.cpp)
+target_compile_options(week-06-h-shocking-arrangement PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-06/h-shocking-arrangement)
+
+
+project(week-08-a-catch-overflow)
+add_executable(week-08-a-catch-overflow week-08/a-catch-overflow/main.cpp)
+target_compile_options(week-08-a-catch-overflow PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/a-catch-overflow)
+
+
+project(week-08-b-permutation-transformation)
+add_executable(week-08-b-permutation-transformation week-08/b-permutation-transformation/main.cpp)
+target_compile_options(week-08-b-permutation-transformation PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/b-permutation-transformation)
+
+
+project(week-08-c-put-knight)
+add_executable(week-08-c-put-knight week-08/c-put-knight/main.cpp)
+target_compile_options(week-08-c-put-knight PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/c-put-knight)
+
+
+project(week-08-d-raising-bacteria)
+add_executable(week-08-d-raising-bacteria week-08/d-raising-bacteria/main.cpp)
+target_compile_options(week-08-d-raising-bacteria PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/d-raising-bacteria)
+
+
+project(week-08-e-random-mood)
+add_executable(week-08-e-random-mood week-08/e-random-mood/main.cpp)
+target_compile_options(week-08-e-random-mood PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/e-random-mood)
+
+
+project(week-08-f-k-th-beautiful-string)
+add_executable(week-08-f-k-th-beautiful-string week-08/f-k-th-beautiful-string/main.cpp)
+target_compile_options(week-08-f-k-th-beautiful-string PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/f-k-th-beautiful-string)
+
+
+project(week-08-g-weird-sum)
+add_executable(week-08-g-weird-sum week-08/g-weird-sum/main.cpp)
+target_compile_options(week-08-g-weird-sum PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/g-weird-sum)
+
+
+project(week-08-h-searching-local-minimum)
+add_executable(week-08-h-searching-local-minimum week-08/h-searching-local-minimum/main.cpp)
+target_compile_options(week-08-h-searching-local-minimum PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/h-searching-local-minimum)
+
+
+project(week-08-i-party)
+add_executable(week-08-i-party week-08/i-party/main.cpp)
+target_compile_options(week-08-i-party PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/i-party)
+
