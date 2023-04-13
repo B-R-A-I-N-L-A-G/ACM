@@ -6,6 +6,7 @@
 #include <ctime>
 #include <functional>
 #include <filesystem>
+#include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <iostream>
@@ -115,7 +116,14 @@ signed main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    ifstream in ("input.txt");
+    ofstream out ("output.txt");
 
+    size_t n; in >> n;
+    for (size_t i = 0; i < n; ++i) {
+        int m; in >> m;
+        out << (m % 2 ? 0 : 1) << endl;
+    }
 
     return 0;
 }
