@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -pedantic -D DEBUG -D LOCAL -D _GLIBCXX_DEBUG -D _GLIBCXX_DEBUG_PEDANTIC -D _FORTIFY_SOURCE=2 -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector -fstack-clash-protection -fstack-protector-all -g CMakeFiles/week-05-k-keypad-repetitions.dir/week-05/k-keypad-repetitions/main.cpp.o -o week-05-k-keypad-repetitions 
