@@ -107,16 +107,39 @@ signed runTask() {
 
 //endregion
 
-
-
 signed main() {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
-    cin.tie(0);
-
-
-
+    cin.tie(nullptr);
+    int n, m;
+    cin >> n >> m;
+    std::unordered_map<int, std::vector<int>> coloredPositionsX;
+    std::unordered_map<int, std::vector<int>> coloredPositionsY;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            int color;
+            cin >> color;
+            coloredPositionsX[color].push_back(i);
+            coloredPositionsY[color].push_back(j);
+        }
+    }
+    int res = 0;
+    for (auto &[color, positions]: coloredPositionsX) {
+        rng::sort(positions);
+        int k = positions.size();
+        for (int j = 0; j < k; ++j) {
+            res += (2*j - (k-1)) * positions[j];
+        }
+    }
+    for (auto &[color, positions]: coloredPositionsY) {
+        rng::sort(positions);
+        int k = positions.size();
+        for (int j = 0; j < k; ++j) {
+            res += (2*j - (k-1)) * positions[j];
+        }
+    }
+    cout << res << endl;
     return 0;
 }
 //endregion
