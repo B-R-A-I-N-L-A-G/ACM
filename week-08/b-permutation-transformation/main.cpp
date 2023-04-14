@@ -108,14 +108,120 @@ signed runTask() {
 //endregion
 
 
+struct IndexedSizeT {
+    size_t idx;
+    size_t val;
+};
 
-signed main() {
+using MaxLookup = vector<vector<IndexedSizeT>>;
+
+MaxLookup buildMaxLookup (const vector<size_t> & p) {
+    size_t levels = (sizeof(p.size()) * CHAR_BIT) - __builtin_clzll(p.size());
+    MaxLookup lookup (levels);
+
+    lookup[0].resize(p.size());
+    for (size_t i = 0; i < p.size(); ++i) {
+        lookup[0][i] = { .idx = i, .val = p[i] };
+    }
+
+    for (size_t i = 1; i < levels; ++i) {
+        auto & currLevel = lookup[i];
+        auto & prevLevel = lookup[i - 1];
+        size_t blockSize = 1 << i;
+        size_t levelSize = p.size() - blockSize + 1;
+
+        currLevel.resize(levelSize);
+        for (size_t j = 0; j < levelSize; ++j) {
+            if (prevLevel[j].val > prevLevel[j + blockSize / 2].val) {
+                currLevel[j] = prevLevel[j];
+            } else {
+                currLevel[j] = prevLevel[j + blockSize / 2];
+            }
+        }
+    }
+
+    return lookup;
+}
+
+
+size_t highestSmallerOrEqualPowerOf2 (size_t n) {
+    return n == 0 ? 0 : 1 << ((sizeof(size_t) * CHAR_BIT) - __builtin_clzll(n));
+}
+
+
+IndexedSizeT findMaxIdx (const MaxLookup & lookup, size_t fromI, size_t toI) {
+    size_t searchLen = toI - fromI + 1;
+    size_t level = (sizeof(size_t) * CHAR_BIT) - __builtin_clzll(searchLen) - 1;
+    size_t blockSize = 1 << level;
+
+    if (lookup[level][fromI].val > lookup[level][toI - blockSize + 1].val) {
+        return lookup[level][fromI];
+    } else {
+        return lookup[level][toI - blockSize + 1];
+    }
+}
+
+
+struct Node {
+    IndexedSizeT val;
+    unique_ptr<Node> l = nullptr, r = nullptr;
+
+    explicit Node(IndexedSizeT val):
+    val(val) { }
+};
+
+
+unique_ptr<Node> buildTree (const MaxLookup & lookup, ssize_t fromI, ssize_t toI) {
+    if (fromI > toI) return nullptr;
+
+    if (fromI == toI) {
+        return make_unique<Node>(lookup[0][fromI]);
+    }
+
+    IndexedSizeT max = findMaxIdx(lookup, fromI, toI);
+    auto node = make_unique<Node>(max);
+    node->l = buildTree(lookup, fromI, max.idx - 1);
+    node->r = buildTree(lookup, max.idx + 1, toI);
+    return node;
+}
+
+
+void populateDepths (const unique_ptr<Node> & node, vector<size_t> & depths, size_t depth = 0) {
+    if (node == nullptr) return;
+    depths[node->val.idx] = depth;
+    populateDepths(node->l, depths, depth + 1);
+    populateDepths(node->r, depths, depth + 1);
+}
+
+
+void test () {
+    size_t N; cin >> N;
+    vector<size_t> p (N, 0);
+    for (auto & el : p) cin >> el;
+
+    auto lookup = buildMaxLookup(p);
+    auto tree = buildTree(lookup, 0, p.size() - 1);
+
+    vector<size_t> depths (p.size(), 0);
+    populateDepths(tree, depths);
+
+    for (auto it = depths.begin(); it != depths.end(); ++it) {
+        if (it != depths.begin()) cout << " ";
+        cout << *it;
+    }
+
+    cout << endl;
+}
+
+
+signed main () {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-
+    size_t T; cin >> T;
+    for (size_t i = 0; i < T; ++i) test();
 
     return 0;
 }
