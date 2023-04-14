@@ -113,9 +113,24 @@ signed main() {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
-    cin.tie(0);
+    cin.tie(nullptr);
 
-
+    int t;
+    cin >> t;
+    for (int i = 0; i < t; ++i) {
+        int size, k;
+        cin >> size >> k;
+        string str(size, 'a');
+        for (int j = size-2; j >= 0; --j) {
+            if (size - j - 1 >= k) {
+                str[j] = 'b';
+                str[size-k] = 'b';
+                break;
+            }
+            k -= size - j - 1;
+        }
+        cout << str << endl;
+    }
 
     return 0;
 }
