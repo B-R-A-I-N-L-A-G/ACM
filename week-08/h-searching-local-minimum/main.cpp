@@ -107,16 +107,39 @@ signed runTask() {
 
 //endregion
 
-
+int queryValueByIndex(int m) {
+    if (m < 1) return INT_MAX;
+    cout << "? " << m << endl;
+    cout.flush();
+    int value;
+    cin >> value;
+    return value;
+}
 
 signed main() {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
-    cin.tie(0);
+    cin.tie(nullptr);
 
+    size_t size;
+    cin >> size;
+    std::vector<int> nums (size+2);
+    nums[0] = size + 69;
+    nums[size+1] = size + 69;
+    int l = 1, r = size;
+    while (l < r) {
+        int middle = (l+r)/2;
+        auto midLvalue = queryValueByIndex(middle), midRvalue = queryValueByIndex(middle + 1);
+        if (midRvalue > midLvalue) {
+            r = middle;
+        } else {
+            l = middle + 1;
+        }
 
-
+    }
+    cout << "! " << l << endl;
+    cout.flush();
     return 0;
 }
 //endregion
