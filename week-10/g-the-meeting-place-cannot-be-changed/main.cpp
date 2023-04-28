@@ -108,16 +108,47 @@ signed runTask() {
 
 //endregion
 
-
+long double calc_distance(auto & v, long double x) {
+    long double distance = 0.0;
+    for (auto & [pos, speed] : v) {
+        distance = max(distance, abs(x-pos)/speed);
+    }
+    return distance;
+}
 
 signed main() {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
-    cin.tie(0);
+    cin.tie(nullptr);
 
-
-
+    int n;
+    cin >> n;
+    vector<int> friends(n), speeds(n);
+    cin >> friends >> speeds;
+    vector<pair<ld, ld>> v;
+    for (int i = 0; i < n; ++i) {
+        v.emplace_back(friends[i], speeds[i]);
+    }
+    rng::sort(v, [](auto a, auto b) { return a.first < b.first; });
+    long double l = 0;
+    long double r = 1e9;
+    long double res = calc_distance(v, r);
+    while (r - l > 1e-10) {
+        long double third = (r-l)/3.0;
+        long double m_l = l + third;
+        long double m_r = r - third;
+        long double m_l_distance = calc_distance(v, m_l);
+        long double m_r_distance = calc_distance(v, m_r);
+        if (m_l_distance > m_r_distance) {
+            l = m_l;
+            res = min(res, m_r_distance);
+        } else {
+            r = m_r;
+            res = min(res, m_l_distance);
+        }
+    }
+    cout << std::fixed << setprecision(10) << res << endl;
     return 0;
 }
 //endregion
