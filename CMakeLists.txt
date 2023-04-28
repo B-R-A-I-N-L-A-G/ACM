@@ -347,3 +347,46 @@ project(week-08-i-party)
 add_executable(week-08-i-party week-08/i-party/main.cpp)
 target_compile_options(week-08-i-party PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-08/i-party)
 
+project(week-09-6-zizaly)
+add_executable(week-09-6-zizaly week-09/6-zizaly/template.cpp)
+target_compile_options(week-09-6-zizaly PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-09/6-zizaly)
+
+project(week-10-a-mahmoud-and-ehab-and-the-bipartiteness)
+add_executable(week-10-a-mahmoud-and-ehab-and-the-bipartiteness week-10/a-mahmoud-and-ehab-and-the-bipartiteness/main.cpp)
+target_compile_options(week-10-a-mahmoud-and-ehab-and-the-bipartiteness PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/a-mahmoud-and-ehab-and-the-bipartiteness)
+
+
+project(week-10-b-playing-with-gcd)
+add_executable(week-10-b-playing-with-gcd week-10/b-playing-with-gcd/main.cpp)
+target_compile_options(week-10-b-playing-with-gcd PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/b-playing-with-gcd)
+
+
+project(week-10-c-sloth-naptime)
+add_executable(week-10-c-sloth-naptime week-10/c-sloth-naptime/main.cpp)
+target_compile_options(week-10-c-sloth-naptime PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/c-sloth-naptime)
+
+
+project(week-10-d-palindromes-coloring)
+add_executable(week-10-d-palindromes-coloring week-10/d-palindromes-coloring/main.cpp)
+target_compile_options(week-10-d-palindromes-coloring PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/d-palindromes-coloring)
+
+
+project(week-10-e-design-tutorial-inverse-the-problem)
+add_executable(week-10-e-design-tutorial-inverse-the-problem week-10/e-design-tutorial-inverse-the-problem/main.cpp)
+target_compile_options(week-10-e-design-tutorial-inverse-the-problem PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/e-design-tutorial-inverse-the-problem)
+
+
+project(week-10-f-firecrackers)
+add_executable(week-10-f-firecrackers week-10/f-firecrackers/main.cpp)
+target_compile_options(week-10-f-firecrackers PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/f-firecrackers)
+
+
+project(week-10-g-the-meeting-place-cannot-be-changed)
+add_executable(week-10-g-the-meeting-place-cannot-be-changed week-10/g-the-meeting-place-cannot-be-changed/main.cpp)
+target_compile_options(week-10-g-the-meeting-place-cannot-be-changed PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/g-the-meeting-place-cannot-be-changed)
+
+
+project(week-10-h-almost-identity-permutations)
+add_executable(week-10-h-almost-identity-permutations week-10/h-almost-identity-permutations/main.cpp)
+target_compile_options(week-10-h-almost-identity-permutations PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/h-almost-identity-permutations)
+
