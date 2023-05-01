@@ -108,16 +108,21 @@ signed runTask() {
 
 //endregion
 
+void solve() {
 
+}
 
 signed main() {
     OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
-    cin.tie(0);
+    cin.tie(nullptr);
 
-
-
+    int tc = 1;
+    // cin >> tc;
+    for (int t = 1; t <= tc; t++) {
+        solve();
+    }
     return 0;
 }
 //endregion
