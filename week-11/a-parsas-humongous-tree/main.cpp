@@ -47,11 +47,18 @@ template<typename K, typename V> using umap = unordered_map<K, V>;
 namespace rng = std::ranges;
 #endif
 
+
+template<typename T, typename K>
+ostream &operator<<(ostream &os, const pair<T, K> &p) {
+    return os << p.first < " " << p.second;
+}
 template<typename T>
 ostream &operator<<(ostream &os, const vector<T> &v) {
     for (const auto &item: v) os << item << " ";
     return os;
 }
+template<typename T, typename K>
+istream &operator>>(istream &is, pair<T, K> &p) { return is >> p.first >> p.second; }
 
 template<typename T>
 istream &operator>>(istream &is, vector<T> &v) {
@@ -59,13 +66,7 @@ istream &operator>>(istream &is, vector<T> &v) {
     return is;
 }
 
-template<typename T, typename K>
-ostream &operator<<(ostream &os, const pair<T, K> &p) {
-    return os << p.first < " " << p.second;
-}
 
-template<typename T, typename K>
-istream &operator>>(istream &is, pair<T, K> &p) { return is >> p.first >> p.second; }
 
 #define int ll
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
@@ -113,6 +114,16 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int vertices;
+    cin >> vertices;
+    vector<pair<int, int>> intervals(vertices);
+    cin >> intervals;
+    vector<vector<int>> adj_list;
+    for (int i = 0; i < (vertices - 1); ++i) {
+        int u, v;
+        cin >> u >> v;
+        adj_list[u].push_back(v), adj_list[v].push_back(u);
+    }
 
 }
 
@@ -123,7 +134,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
