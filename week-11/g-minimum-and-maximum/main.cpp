@@ -111,9 +111,19 @@ signed runTask() {
 #endif
 
 //endregion
-
+char queryComparison(int a, int b) {
+    cout << "? " << a << " "  << b << endl;
+    cout.flush();
+    char value;
+    cin >> value;
+    return value;
+}
 void solve() {
-
+    int size;
+    cin >> size;
+    if (size == 1) {
+        cout << "! 1 1" << endl;
+    }
 }
 
 signed main() {
@@ -123,7 +133,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }

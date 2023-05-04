@@ -113,6 +113,18 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int size;
+    cin >> size;
+    if (size == 1) {
+        cout << -1 << endl;
+        return;
+    }
+    umap<int, int> m;
+    for (int i = 0; i < size; ++i) {
+        int a;
+        cin >> a;
+        m[a]++;
+    }
 
 }
 
@@ -123,7 +135,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
