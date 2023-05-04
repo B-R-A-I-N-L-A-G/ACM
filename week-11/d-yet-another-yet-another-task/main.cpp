@@ -115,21 +115,24 @@ signed runTask() {
 void solve() {
     int n;
     cin >> n;
-    vector<int> a(n);
 
-    int cum = 0;
-    int cum_res = 0;
-    int max_rm;
-    cin >> max_rm;
+    int result = 0, cum_sum = 0, cum_max = 0, cum_sum_max = 0;
 
-    for(int i = 1; i < n; i++) {
-        int current;
-        cin >> current;
-        cum = cum - current;
-        if(cum < 0) {
-
+    for (int i = 0; i < n; ++i) {
+        int a;
+        cin >> a;
+        cum_sum += a;
+        cum_max = max(cum_max, a);
+        cum_sum_max = max(cum_sum_max, cum_sum);
+        if(cum_sum <= 0) {
+            result = max(result, cum_sum_max - cum_max);
+            cum_sum = cum_max = cum_sum_max = 0;
         }
     }
+
+    result = max(result, cum_sum_max - cum_max);
+
+    cout << result << endl;
 }
 
 signed main() {
@@ -139,7 +142,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+//    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
