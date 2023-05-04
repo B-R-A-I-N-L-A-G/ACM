@@ -68,7 +68,11 @@ template<typename T, typename K>
 istream &operator>>(istream &is, pair<T, K> &p) { return is >> p.first >> p.second; }
 
 #define int ll
-
+#define rep(i, a, b) for(int i = a; i < (b); ++i)
+#define all(x) begin(x), end(x)
+#define sz(x) (int)(x).size()
+typedef pair<int, int> pii;
+typedef vector<int> vi;
 //kubik
 
 #ifdef MAIN_DIR_PATH
