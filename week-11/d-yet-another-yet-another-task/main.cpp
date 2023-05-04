@@ -113,7 +113,23 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
 
+    int cum = 0;
+    int cum_res = 0;
+    int max_rm;
+    cin >> max_rm;
+
+    for(int i = 1; i < n; i++) {
+        int current;
+        cin >> current;
+        cum = cum - current;
+        if(cum < 0) {
+
+        }
+    }
 }
 
 signed main() {
