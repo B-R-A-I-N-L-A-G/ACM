@@ -116,21 +116,18 @@ void solve() {
     int p;
     cin >> p;
     umap<int, int> m;
-    size_t score = 0;
+    int cd = 0;
+    int s = 0;
 
-    for (int i = 0; i < p; ++i) {
+    for (int idx = 1; idx <= p; ++idx) {
         int c;
         cin >> c;
-        m[c]++;
+
+        s += (cd += m[c]);
+        m[c] += idx;
     }
 
-    for (auto [_,k]:m) {
-        int f1 = (k*k + k) * (k-1) * k / 2;
-        int f2 = (2*k + 1) * k * (2 * k - 1) * (k - 1) / 6;
-        int f3 = (k - 1) * (k - 1) * k * k / 4;
-        score += (f1 - f2 + f3) / 2;
-    }
-    cout << score << endl;
+    cout << s << endl;
 }
 
 signed main() {
