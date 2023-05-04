@@ -123,7 +123,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
