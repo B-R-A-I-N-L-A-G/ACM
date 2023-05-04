@@ -121,11 +121,14 @@ void solve() {
     for (int i = 0; i < p; ++i) {
         int c;
         cin >> c;
-        score += m[c]++;
+        m[c]++;
     }
 
     for (auto [_,k]:m) {
-        score += k * (k - 1) / 2;
+        int f1 = (k*k + k) * (k-1) * k / 2;
+        int f2 = (2*k + 1) * k * (2 * k - 1) * (k - 1) / 6;
+        int f3 = (k - 1) * (k - 1) * k * k / 4;
+        score += (f1 - f2 + f3) / 2;
     }
     cout << score << endl;
 }
