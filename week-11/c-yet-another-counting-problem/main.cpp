@@ -113,7 +113,28 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int a, b, q, M;
+    cin >> a >> b >> q;
+    M = a * b;
+    vector<int> is_diff_prefix(M);
 
+    int cum_diff = 0;
+    for(int i = 0; i < M; i++) {
+        cum_diff += (((i % a) % b) != ((i % b) % a));
+        is_diff_prefix[i] = cum_diff;
+    }
+
+    while(q--) {
+        int l, r, l_div, l_mod, r_div, r_mod;
+        cin >> l >> r;
+
+        l--;
+        l_div = l / M; l_mod = l % M;
+        r_div = r / M; r_mod = r % M;
+
+        cout << (r_div - l_div) * cum_diff - is_diff_prefix[l_mod] + is_diff_prefix[r_mod] << " ";
+    }
+    cout << endl;
 }
 
 signed main() {
@@ -123,7 +144,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
