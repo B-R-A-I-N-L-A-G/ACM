@@ -113,18 +113,52 @@ signed runTask() {
 
 //endregion
 
+int maxDFS(const vector<vector<int>> &adj_list,
+           const vector<pair<int, int>> &intervals,
+           vector<pair<int, int>> &memoization,
+           int parent, int current, bool is_max) {
+    auto &memb = memoization[current];
+
+    auto &cached = is_max ? memb.second : memb.first;
+    if(cached != -1) return cached;
+
+    auto &interval = intervals[current-1];
+    int value = is_max ? interval.second : interval.first;
+
+    int prettiness = 0;
+    for(auto son: adj_list[current]) {
+        if(son == parent) continue;
+        prettiness += max(
+                    maxDFS(adj_list, intervals, memoization, current, son, false) +
+                        abs(intervals[son-1].first - value),
+                    maxDFS(adj_list, intervals, memoization, current, son, true) +
+                        abs(intervals[son-1].second - value)
+                );
+    }
+
+    cached = prettiness;
+    return prettiness;
+}
+
 void solve() {
     int vertices;
     cin >> vertices;
     vector<pair<int, int>> intervals(vertices);
     cin >> intervals;
-    vector<vector<int>> adj_list;
+    vector<vector<int>> adj_list(vertices + 1);
     for (int i = 0; i < (vertices - 1); ++i) {
         int u, v;
         cin >> u >> v;
         adj_list[u].push_back(v), adj_list[v].push_back(u);
     }
 
+    vector<pair<int, int>> memoization(vertices + 1);
+    for(auto &memb: memoization) {
+        memb = {-1, -1};
+    }
+
+    cout << max(maxDFS(adj_list, intervals, memoization, 0, 1, false),
+               maxDFS(adj_list, intervals, memoization, 0, 1, true)) << endl;
 }
 
 signed main() {
