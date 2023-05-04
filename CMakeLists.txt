@@ -390,3 +390,43 @@ project(week-10-h-almost-identity-permutations)
 add_executable(week-10-h-almost-identity-permutations week-10/h-almost-identity-permutations/main.cpp)
 target_compile_options(week-10-h-almost-identity-permutations PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-10/h-almost-identity-permutations)
 
+
+project(week-11-a-parsas-humongous-tree)
+add_executable(week-11-a-parsas-humongous-tree week-11/a-parsas-humongous-tree/main.cpp)
+target_compile_options(week-11-a-parsas-humongous-tree PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/a-parsas-humongous-tree)
+
+
+project(week-11-b-frog-jumps)
+add_executable(week-11-b-frog-jumps week-11/b-frog-jumps/main.cpp)
+target_compile_options(week-11-b-frog-jumps PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/b-frog-jumps)
+
+
+project(week-11-c-yet-another-counting-problem)
+add_executable(week-11-c-yet-another-counting-problem week-11/c-yet-another-counting-problem/main.cpp)
+target_compile_options(week-11-c-yet-another-counting-problem PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/c-yet-another-counting-problem)
+
+
+project(week-11-d-yet-another-yet-another-task)
+add_executable(week-11-d-yet-another-yet-another-task week-11/d-yet-another-yet-another-task/main.cpp)
+target_compile_options(week-11-d-yet-another-yet-another-task PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/d-yet-another-yet-another-task)
+
+
+project(week-11-e-dominated-subarray)
+add_executable(week-11-e-dominated-subarray week-11/e-dominated-subarray/main.cpp)
+target_compile_options(week-11-e-dominated-subarray PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/e-dominated-subarray)
+
+
+project(week-11-f-sequence-pair-weight)
+add_executable(week-11-f-sequence-pair-weight week-11/f-sequence-pair-weight/main.cpp)
+target_compile_options(week-11-f-sequence-pair-weight PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/f-sequence-pair-weight)
+
+
+project(week-11-g-minimum-and-maximum)
+add_executable(week-11-g-minimum-and-maximum week-11/g-minimum-and-maximum/main.cpp)
+target_compile_options(week-11-g-minimum-and-maximum PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/g-minimum-and-maximum)
+
+
+project(week-11-h-game-of-ball-passing)
+add_executable(week-11-h-game-of-ball-passing week-11/h-game-of-ball-passing/main.cpp)
+target_compile_options(week-11-h-game-of-ball-passing PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/h-game-of-ball-passing)
+
