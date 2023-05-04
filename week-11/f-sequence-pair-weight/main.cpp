@@ -103,8 +103,8 @@ void openAndRunInputs() {
 }
 
 #define OPEN_AND_RUN_INPUTS  openAndRunInputs();    \
-}                                                   \
-signed runTask() {
+    }                                                   \
+    signed runTask() {
 
 #else
 #define OPEN_AND_RUN_INPUTS
@@ -113,17 +113,31 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int p;
+    cin >> p;
+    umap<int, int> m;
+    size_t score = 0;
 
+    for (int i = 0; i < p; ++i) {
+        int c;
+        cin >> c;
+        score += m[c]++;
+    }
+
+    for (auto [_,k]:m) {
+        score += k * (k - 1) / 2;
+    }
+    cout << score << endl;
 }
 
 signed main() {
-    OPEN_AND_RUN_INPUTS
+OPEN_AND_RUN_INPUTS
 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int tc = 1;
-    // cin >> tc;
+    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }
