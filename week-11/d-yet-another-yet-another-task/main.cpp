@@ -112,27 +112,38 @@ signed runTask() {
 
 //endregion
 
+int primitiveSol(vector<int> &a, int i) {
+    int cumMax = 0;
+    int cumSum = 0;
+
+    for(auto &m: a) {
+        if(m == INT_MIN) continue;
+        cumSum += m;
+        if(m > cumSum) {
+            cumSum = m;
+        }
+        cumMax = max(cumMax, cumSum);
+        if(m == i) m = INT_MIN;
+    }
+
+    return cumMax;
+}
+
+
 void solve() {
     int n;
     cin >> n;
 
-    int result = 0, cum_sum = 0, cum_max = 0, cum_sum_max = 0;
+    vector<int> a(n);
 
-    for (int i = 0; i < n; ++i) {
-        int a;
-        cin >> a;
-        cum_sum += a;
-        cum_max = max(cum_max, a);
-        cum_sum_max = max(cum_sum_max, cum_sum);
-        if(cum_sum <= 0) {
-            result = max(result, cum_sum_max - cum_max);
-            cum_sum = cum_max = cum_sum_max = 0;
-        }
+    cin >> a;
+
+    int m = 0;
+    for (int i = 30; i; --i) {
+        m = max(m, primitiveSol(a, i) - i);
     }
 
-    result = max(result, cum_sum_max - cum_max);
-
-    cout << result << endl;
+    cout << m << endl;
 }
 
 signed main() {
