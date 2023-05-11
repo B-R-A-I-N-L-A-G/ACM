@@ -113,7 +113,11 @@ signed runTask() {
 //endregion
 
 void solve() {
-
+    string s;
+    cin >> s;
+    if(std::any_of(all(s), [&s](const auto &c){return c != s[0];}))
+        cout << (s.size() - 1) << endl;
+    else cout << -1 << endl;
 }
 
 signed main() {
