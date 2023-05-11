@@ -430,3 +430,43 @@ project(week-11-h-game-of-ball-passing)
 add_executable(week-11-h-game-of-ball-passing week-11/h-game-of-ball-passing/main.cpp)
 target_compile_options(week-11-h-game-of-ball-passing PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-11/h-game-of-ball-passing)
 
+
+project(week-12-a-luotianyi-and-the-floating-islands-easy-version)
+add_executable(week-12-a-luotianyi-and-the-floating-islands-easy-version week-12/a-luotianyi-and-the-floating-islands-easy-version/main.cpp)
+target_compile_options(week-12-a-luotianyi-and-the-floating-islands-easy-version PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/a-luotianyi-and-the-floating-islands-easy-version)
+
+
+project(week-12-b-luotianyi-and-xor-tree)
+add_executable(week-12-b-luotianyi-and-xor-tree week-12/b-luotianyi-and-xor-tree/main.cpp)
+target_compile_options(week-12-b-luotianyi-and-xor-tree PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/b-luotianyi-and-xor-tree)
+
+
+project(week-12-c-luotianyi-and-the-table)
+add_executable(week-12-c-luotianyi-and-the-table week-12/c-luotianyi-and-the-table/main.cpp)
+target_compile_options(week-12-c-luotianyi-and-the-table PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/c-luotianyi-and-the-table)
+
+
+project(week-12-d-luotianyi-and-the-palindrome-string)
+add_executable(week-12-d-luotianyi-and-the-palindrome-string week-12/d-luotianyi-and-the-palindrome-string/main.cpp)
+target_compile_options(week-12-d-luotianyi-and-the-palindrome-string PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/d-luotianyi-and-the-palindrome-string)
+
+
+project(week-12-e-running-miles)
+add_executable(week-12-e-running-miles week-12/e-running-miles/main.cpp)
+target_compile_options(week-12-e-running-miles PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/e-running-miles)
+
+
+project(week-12-f-lunatic-never-content)
+add_executable(week-12-f-lunatic-never-content week-12/f-lunatic-never-content/main.cpp)
+target_compile_options(week-12-f-lunatic-never-content PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/f-lunatic-never-content)
+
+
+project(week-12-g-indivisible)
+add_executable(week-12-g-indivisible week-12/g-indivisible/main.cpp)
+target_compile_options(week-12-g-indivisible PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/g-indivisible)
+
+
+project(week-12-h-ian-visits-mary)
+add_executable(week-12-h-ian-visits-mary week-12/h-ian-visits-mary/main.cpp)
+target_compile_options(week-12-h-ian-visits-mary PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/h-ian-visits-mary)
+
