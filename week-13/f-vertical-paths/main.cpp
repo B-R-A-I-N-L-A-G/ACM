@@ -113,7 +113,9 @@ signed runTask() {
 //endregion
 
 void solve() {
-
+    int vertices;
+    cin >> vertices;
+    vector<vector<int>>
 }
 
 signed main() {
