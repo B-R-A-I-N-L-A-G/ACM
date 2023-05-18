@@ -113,7 +113,17 @@ signed runTask() {
 //endregion
 
 void solve() {
-
+    int n;
+    cin >> n;
+    if(n % 2 == 1) {
+        cout << -1 << endl;
+        return;
+    }
+    for(int i = 0; i < n; i += 2) {
+        cout << i + 2 << ' ' << i + 1;
+        if(i + 2 < n) cout << ' ';
+    }
+    cout << endl;
 }
 
 signed main() {

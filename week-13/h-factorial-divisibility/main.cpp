@@ -43,10 +43,6 @@ using fast = std::int_fast32_t;
 template<typename T> using uset = unordered_set<T>;
 template<typename K, typename V> using umap = unordered_map<K, V>;
 
-#ifndef __APPLE__
-namespace rng = std::ranges;
-#endif
-
 template<typename T>
 ostream &operator<<(ostream &os, const vector<T> &v) {
     for (const auto &item: v) os << item << " ";
@@ -113,7 +109,23 @@ signed runTask() {
 //endregion
 
 void solve() {
+    int n, x;
+    cin >> n >> x;
+    vector<int> counts(x+1, 0);
 
+    for(int i = 0; i < n; i++) {
+        int a;
+        cin >> a;
+        counts[a] += 1;
+    }
+
+    for(int a = 1; a <= x; a++) {
+        if(counts[a] % a != 0) {
+            cout << "NO" << endl;
+            return;
+        }
+    }
+    cout << "YES" << endl;
 }
 
 signed main() {

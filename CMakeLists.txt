@@ -471,6 +471,7 @@ add_executable(week-12-h-ian-visits-mary week-12/h-ian-visits-mary/main.cpp)
 target_compile_options(week-12-h-ian-visits-mary PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/h-ian-visits-mary)
 
 
+<<<<<<< HEAD
 project(week-13-a-meeting-on-the-line)
 add_executable(week-13-a-meeting-on-the-line week-13/a-meeting-on-the-line/main.cpp)
 target_compile_options(week-13-a-meeting-on-the-line PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/a-meeting-on-the-line)
