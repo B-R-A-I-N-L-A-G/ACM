@@ -470,3 +470,43 @@ project(week-12-h-ian-visits-mary)
 add_executable(week-12-h-ian-visits-mary week-12/h-ian-visits-mary/main.cpp)
 target_compile_options(week-12-h-ian-visits-mary PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-12/h-ian-visits-mary)
 
+
+project(week-13-a-meeting-on-the-line)
+add_executable(week-13-a-meeting-on-the-line week-13/a-meeting-on-the-line/main.cpp)
+target_compile_options(week-13-a-meeting-on-the-line PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/a-meeting-on-the-line)
+
+
+project(week-13-b-permutation-swap)
+add_executable(week-13-b-permutation-swap week-13/b-permutation-swap/main.cpp)
+target_compile_options(week-13-b-permutation-swap PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/b-permutation-swap)
+
+
+project(week-13-c-algebra-flash)
+add_executable(week-13-c-algebra-flash week-13/c-algebra-flash/main.cpp)
+target_compile_options(week-13-c-algebra-flash PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/c-algebra-flash)
+
+
+project(week-13-d-a-wide-wide-graph)
+add_executable(week-13-d-a-wide-wide-graph week-13/d-a-wide-wide-graph/main.cpp)
+target_compile_options(week-13-d-a-wide-wide-graph PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/d-a-wide-wide-graph)
+
+
+project(week-13-e-range-sorting-easy-version)
+add_executable(week-13-e-range-sorting-easy-version week-13/e-range-sorting-easy-version/main.cpp)
+target_compile_options(week-13-e-range-sorting-easy-version PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/e-range-sorting-easy-version)
+
+
+project(week-13-f-vertical-paths)
+add_executable(week-13-f-vertical-paths week-13/f-vertical-paths/main.cpp)
+target_compile_options(week-13-f-vertical-paths PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/f-vertical-paths)
+
+
+project(week-13-g-counting-orders)
+add_executable(week-13-g-counting-orders week-13/g-counting-orders/main.cpp)
+target_compile_options(week-13-g-counting-orders PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/g-counting-orders)
+
+
+project(week-13-h-factorial-divisibility)
+add_executable(week-13-h-factorial-divisibility week-13/h-factorial-divisibility/main.cpp)
+target_compile_options(week-13-h-factorial-divisibility PRIVATE -DMAIN_DIR_PATH=${CMAKE_CURRENT_SOURCE_DIR}/week-13/h-factorial-divisibility)
+
