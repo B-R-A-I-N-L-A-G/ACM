@@ -117,17 +117,20 @@ void dfs (unordered_set<int> & visited, int parent) {
 void solve() {
     int vertices;
     cin >> vertices;
+    int root = 1;
     vector<vector<int>> adj_list(vertices+1, vector<int>());
     for (int i = 1; i <= vertices; ++i) {
         int parent;
         cin >> parent;
+        if (i == parent) root = i;
         adj_list[i].push_back(parent), adj_list[parent].push_back(i);
     }
     unordered_set<int> visited;
     int res = 0;
+    dfs(visited, root);
     while (visited.size() != (size_t)vertices) {
+        //todo: implement starting dfs from the highest unvisited nodes
         res++;
-        dfs(visited, 0);
     }
     cout << res << endl;
 }
