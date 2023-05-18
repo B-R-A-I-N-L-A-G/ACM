@@ -119,11 +119,12 @@ void solve() {
         counts[a] += 1;
     }
 
-    for(int a = 1; a <= x; a++) {
-        if(counts[a] % a != 0) {
+    for(int a = 1; a < x; a++) {
+        if((counts[a] % (a + 1)) != 0) {
             cout << "NO" << endl;
             return;
         }
+        counts[a+1] += counts[a] / (a + 1);
     }
     cout << "YES" << endl;
 }
@@ -135,7 +136,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    cin >> tc;
+//    cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }

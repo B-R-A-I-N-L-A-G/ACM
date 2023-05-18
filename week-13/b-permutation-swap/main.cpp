@@ -115,12 +115,19 @@ signed runTask() {
 void solve() {
     int n, k;
     cin >> n;
-    vi v(n);
-    cin >> v;
-    for (k = n - 1; k > 1; --k) {
-        
+
+    int cum_gcd = 0;
+    for(int idx = 1; idx <= n; idx++) {
+        int a;
+        cin >> a;
+        int diff = abs(a - idx);
+        if(diff == 0)
+            continue;
+        if(cum_gcd == 0)
+            cum_gcd = diff;
+        cum_gcd = gcd(cum_gcd, diff);
     }
-    cout << k << endl;
+    cout << cum_gcd << endl;
 }
 
 signed main() {
