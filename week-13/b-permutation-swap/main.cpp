@@ -113,7 +113,14 @@ signed runTask() {
 //endregion
 
 void solve() {
-
+    int n, k;
+    cin >> n;
+    vi v(n);
+    cin >> v;
+    for (k = n - 1; k > 1; --k) {
+        
+    }
+    cout << k << endl;
 }
 
 signed main() {
