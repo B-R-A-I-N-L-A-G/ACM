@@ -111,7 +111,17 @@ signed runTask() {
 #endif
 
 //endregion
-void dfs (unordered_set<int> & visited, int parent) {
+void dfs (const vector<vector<int>> & adj_list,unordered_set<int> & visited, int parent , list<list<int>> & paths) {
+    auto & path = paths.back();
+    path.push_back(parent);
+    for (const auto &son: adj_list[parent]) {
+        if (!visited.contains(son)) {
+            visited.emplace(son);
+            path.push_back(son);
+            dfs(adj_list, visited, son, paths);
+        }
+        return ;
+    }
 
 }
 void solve() {
@@ -127,7 +137,8 @@ void solve() {
     }
     unordered_set<int> visited;
     int res = 0;
-    dfs(visited, root);
+    list<list<int>> paths(1);
+    dfs(adj_list, visited, root, paths);
     while (visited.size() != (size_t)vertices) {
         //todo: implement starting dfs from the highest unvisited nodes
         res++;
