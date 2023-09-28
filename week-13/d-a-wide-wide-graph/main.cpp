@@ -112,8 +112,87 @@ signed runTask() {
 
 //endregion
 
-void solve() {
+int deepest_node(const umap<int, vector<int>> &tree, int start) {
+    vector<bool> visited(tree.size() + 1, false);
 
+    queue<int> Q;
+
+    Q.push(start);
+
+    int node = start;
+    while(!Q.empty()) {
+        node = Q.front();
+        Q.pop();
+        visited[node] = true;
+
+        for(auto neigh: tree.at(node)) {
+            if(visited[neigh])
+                continue;
+            Q.push(neigh);
+        }
+    }
+    return node;
+}
+
+void get_dist(const umap<int, vector<int>> &tree,
+              vector<int> &dist,
+              int s0) {
+    fill(all(dist), -1);
+    dist[s0] = 0;
+
+    queue<int> Q;
+    Q.push(s0);
+    while(!Q.empty()) {
+        int node = Q.front();
+        Q.pop();
+
+        for(auto neigh: tree.at(node)) {
+            if(dist[neigh] >= 0)
+                continue;
+            Q.push(neigh);
+            dist[neigh] = dist[node] + 1;
+        }
+    }
+}
+
+void solve() {
+    umap<int, vector<int>> tree;
+
+    int n;
+    cin >> n;
+
+    for(int i = 1; i < n; i++) {
+        int a, b = 0;
+        cin >> a >> b;
+        tree[a].push_back(b);
+        tree[b].push_back(a);
+    }
+
+    int deepest = deepest_node(tree, 1);
+    int deep = deepest_node(tree, deepest);
+
+    vector<int> d0(n+1);
+    vector<int> d1(n+1);
+
+    get_dist(tree, d0, deepest);
+    get_dist(tree, d1, deep);
+
+    int last = 0;
+    vector<int> at_dist(n+2, 0);
+    for(int i = 1; i < (int)d0.size(); i++) {
+        int m = max(d0[i], d1[i]);
+        at_dist[m]++;
+        last = max(m, last);
+    }
+
+    int comp = 1;
+    for(int k = 1; k <= n; k++) {
+        comp += at_dist[k-1];
+        cout << comp << (k == n ? "" : " ");
+        comp -= last == k;
+    }
+
+    cout << endl;
 }
 
 signed main() {
@@ -123,7 +202,7 @@ signed main() {
     cin.tie(nullptr);
 
     int tc = 1;
-    cin >> tc;
+    // cin >> tc;
     for (int t = 1; t <= tc; t++) {
         solve();
     }

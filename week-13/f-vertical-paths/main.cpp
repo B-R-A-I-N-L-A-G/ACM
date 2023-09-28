@@ -111,19 +111,22 @@ signed runTask() {
 #endif
 
 //endregion
-void dfs (const vector<vector<int>> & adj_list,unordered_set<int> & visited, int parent , list<list<int>> & paths) {
-    auto & path = paths.back();
-    path.push_back(parent);
-    for (const auto &son: adj_list[parent]) {
-        if (!visited.contains(son)) {
-            visited.emplace(son);
-            path.push_back(son);
-            dfs(adj_list, visited, son, paths);
-        }
-        return ;
+void dfs (const vector<vector<int>> &adj_list, vector<vector<int>> &paths, int node , bool is_first) {
+    if(is_first) {
+        paths.push_back(vector<int>{node});
+    }
+    else {
+        paths.back().push_back(node);
     }
 
+    if(!adj_list[node].empty()) {
+        dfs(adj_list, paths, adj_list[node][0], false);
+
+        for(size_t i = 1; i < adj_list[node].size(); i++)
+            dfs(adj_list, paths, adj_list[node][i], true);
+    }
 }
+
 void solve() {
     int vertices;
     cin >> vertices;
@@ -133,17 +136,17 @@ void solve() {
         int parent;
         cin >> parent;
         if (i == parent) root = i;
-        adj_list[i].push_back(parent), adj_list[parent].push_back(i);
+        else adj_list[parent].push_back(i);
     }
-    unordered_set<int> visited;
-    int res = 0;
-    list<list<int>> paths(1);
-    dfs(adj_list, visited, root, paths);
-    while (visited.size() != (size_t)vertices) {
-        //todo: implement starting dfs from the highest unvisited nodes
-        res++;
+    vector<vector<int>> paths;
+    dfs(adj_list, paths, root, true);
+
+    cout << paths.size() << endl;
+
+    for(auto &l: paths) {
+        cout << l.size() << endl;
+        cout << l << endl;
     }
-    cout << res << endl;
 }
 
 signed main() {
